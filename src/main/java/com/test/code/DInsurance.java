@@ -233,11 +233,11 @@ public class DInsurance extends initialiazeChrome{
 		InsuSurveyorInspection.click();
 	}
 	public void insuSurveyorSelectItem() throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(1500);
 		InsuSurveyorSelectItem.click();
 	}
 	public void insuSurveyorUpdateInfo() throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(1500);
 		InsuSurveyorUpdateInfo.click();
 	}
 	public void insuSurveyorClaimInspectionDate() throws InterruptedException {
