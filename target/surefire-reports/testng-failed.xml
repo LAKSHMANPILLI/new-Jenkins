@@ -3,20 +3,12 @@
 <suite name="Failed suite [Surefire suite]" verbose="0">
   <test thread-count="5" name="Surefire test(failed)" verbose="0">
     <classes>
-      <class name="com.testserver.testcases.DInsurance_Test">
+      <class name="com.testserver.testcases.FRTV_Test">
         <methods>
-          <include name="insuPendingLiquidationSelectItem"/>
-          <include name="insuAttachDocPendingLiqui"/>
-          <include name="insuClaimResolutionApprovelDate"/>
-          <include name="insuPendingLiquidationAddRemarks"/>
-          <include name="insuPendingLiquidSetDisposition"/>
-          <include name="dispositionInsurance"/>
-          <include name="Disposition"/>
-          <include name="insuSurveyorUpdateInfo"/>
-          <include name="insuConfirm5th"/>
-          <include name="insuSetDispositionLiquidation"/>
+          <include name="RTVDispatchOkbutton"/>
+          <include name="RTV1"/>
         </methods>
-      </class> <!-- com.testserver.testcases.DInsurance_Test -->
+      </class> <!-- com.testserver.testcases.FRTV_Test -->
     </classes>
   </test> <!-- Surefire test(failed) -->
 </suite> <!-- Failed suite [Surefire suite] -->

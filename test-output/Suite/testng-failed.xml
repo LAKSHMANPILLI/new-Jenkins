@@ -3,14 +3,75 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="com.testserver.testcases.Login_QATest">
+      <class name="com.testserver.testcases.DInsurance_Test">
         <methods>
-          <include name="signIn"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
+          <include name="insuAttachDocPendingLiqui"/>
+          <include name="insuPendingLiquidationSelectItem"/>
+          <include name="insuConfirmSecond"/>
+          <include name="insuUpdateCallSelectItem"/>
+          <include name="insuClaimResolutionApprovelDate"/>
+          <include name="insuUpdateClaimCallLog"/>
+          <include name="dispositionInsurance"/>
+          <include name="insuClaimSubmitionDate"/>
+          <include name="insuClaimResolutionApprovedAmount"/>
+          <include name="insuEnterCallLog"/>
+          <include name="insuAddRemarks"/>
+          <include name="insuConfirm5th"/>
+          <include name="insuAttachDocInspection"/>
+          <include name="insuAttachDocClaimresolution"/>
+          <include name="insuConfirmFirst"/>
+          <include name="insuClaimAmount"/>
+          <include name="insuPendingLiquidationAddRemarks"/>
+          <include name="insuConfirmFourth"/>
+          <include name="Disposition"/>
+          <include name="Insurance1"/>
+          <include name="insuSurveyorUpdateInfo"/>
+          <include name="insuSetDispositionLiquidation"/>
+          <include name="insuSelectItem"/>
+          <include name="insuSurveyorSelectItem"/>
+          <include name="insuConfirmThird"/>
+          <include name="insuPendingLiquidSetDisposition"/>
+          <include name="insuClaimResolutionAddRemarks"/>
+          <include name="insuClaimResolutionApprove"/>
+          <include name="insuSurveyorClaimInspectionDate"/>
+          <include name="insuAttachDoc"/>
+          <include name="InsuSurveyorAddRemarks"/>
         </methods>
-      </class> <!-- com.testserver.testcases.Login_QATest -->
+      </class> <!-- com.testserver.testcases.DInsurance_Test -->
+      <class name="com.testserver.testcases.CBrandcalllog_Test">
+        <methods>
+          <include name="bclInspectionThird"/>
+          <include name="bclLocationInhouse"/>
+          <include name="bclResolutionSelectItem"/>
+          <include name="bclBrandResolutionAttachDoc"/>
+          <include name="bclBrandInspectionConfirm"/>
+          <include name="bclBrandInspectionLocation"/>
+          <include name="bclInspectionBrandInspection"/>
+          <include name="bclBrandLocationInhouse"/>
+          <include name="bclEnterCallLog"/>
+          <include name="bclInitiationLocation"/>
+          <include name="bclFirstConfirm"/>
+          <include name="bclBrandInspectionSetDisposition"/>
+          <include name="bclInspectionSelectTag"/>
+          <include name="bclUpdateCallLogTag"/>
+          <include name="bclBrandInspectionRemarks"/>
+          <include name="bclBrandInspectionAttachDoc"/>
+          <include name="bclEnterInvoice"/>
+          <include name="dispositonBCL1"/>
+          <include name="bclBrandSetDispoInsurance"/>
+          <include name="bclInspectionUpdate"/>
+          <include name="bclAddremarks"/>
+          <include name="bclUpdateSecond"/>
+          <include name="bclEmailDate"/>
+          <include name="bclSelectTagBrand"/>
+          <include name="Disposition"/>
+          <include name="bclBrandResolutionConfirm"/>
+          <include name="bclBrandResolution"/>
+          <include name="bclBrandResolutionRemarks"/>
+          <include name="bclSelectItem"/>
+          <include name="bclBrandInspectionDate"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.CBrandcalllog_Test -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

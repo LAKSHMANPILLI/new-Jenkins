@@ -3,8 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="com.testserver.testcases.Login_QATest"/>
-      <class name="com.testserver.testcases.MDisposition_Test"/>
+      <class name="com.testserver.testcases.ALogin_QATest"/>
+      <class name="com.testserver.testcases.BDisposition_Test"/>
+      <class name="com.testserver.testcases.CBrandcalllog_Test"/>
+      <class name="com.testserver.testcases.DInsurance_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

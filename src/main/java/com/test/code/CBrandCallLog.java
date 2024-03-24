@@ -197,7 +197,7 @@ public class CBrandCallLog extends initialiazeChrome {
 		BclCallLogselectItem.click();
 	}
 	public void bclUpdateCallLogTag() throws InterruptedException {
-		Thread.sleep(500);
+		Thread.sleep(1000);
 		BclUpdateCallLogTag.click();
 	}
 	public void bclEnterCallLog() throws InterruptedException {

@@ -11,17 +11,22 @@ import com.test.code.ALogin_QAdev;
 
 public class ALogin_QATest extends initialiazeChrome {
 	ALogin_QAdev cc;
+	
+	
+//	public ALogin_QATest() {//when there is methods directly present in the class those come to here then it will go to the inilization
+//		super();
+//	}
 
 	
 	@BeforeSuite
 	public void setUp() throws InterruptedException {
-		initialization();
+		initialization();//initialization
 		// login = new Sign_In();
 	}
 
 	@BeforeTest
 	public void signIn() throws InterruptedException {
-		cc = new ALogin_QAdev();
+		cc = new ALogin_QAdev();///login page class object
    		 //Thread.sleep(2000);
 	}
 	
@@ -49,7 +54,7 @@ public class ALogin_QATest extends initialiazeChrome {
 	
 	@AfterSuite
 	public void tearDown() {
-		 //driver.quit();
+		 driver.quit();
 
 	}
 }

@@ -12,17 +12,18 @@ import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
+import org.testng.annotations.Listeners;
 
 import com.google.common.io.Files;
 import com.project.Utils.TestUtil;
-
-import io.github.bonigarcia.wdm.WebDriverManager;
+import com.test.listeners.listener;
 
 
 /**
  * Hello world!
  *
  */
+@Listeners(listener.class)
 public class initialiazeChrome 
 {
 	
@@ -55,8 +56,8 @@ public class initialiazeChrome
 		if (browserName.equals("chrome")) {
 			//ChromeOptions co=new ChromeOptions();
 			//co.setBinary("C:\\Users\\Blubirch\\Downloads\\chrome-win32\\chrome-win32");
-			//System.setProperty("webdriver.chrome.driver","C:\\Users\\Blubirch\\eclipse-workspace\\QAtest\\src\\main\\resources\\chromedriver.exe");
-			WebDriverManager.chromedriver().setup();
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\Blubirch\\eclipse-workspace\\QAtest\\src\\main\\resources\\chromedriver.exe");
+			//WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 
 	  }
@@ -74,7 +75,7 @@ public class initialiazeChrome
 		public void failed(String testMethodName) {
 			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			try {
-				Files.copy(srcFile, new File("C:\\Users\\Blubirch\\Downloads\\QEProject\\QEProject\\Screenshoot"+testMethodName+"_"+".jpg"));
+				Files.copy(srcFile, new File("C:\\Users\\Blubirch\\eclipse-workspace\\QAtest\\ScreenShoots\\Abc"+testMethodName+"_"+".jpg"));
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

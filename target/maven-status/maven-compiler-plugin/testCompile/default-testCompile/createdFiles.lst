@@ -1,4 +1,6 @@
 com\testserver\testcases\BDisposition_Test.class
 com\testserver\testcases\ALogin_QATest.class
 com\testserver\testcases\CBrandcalllog_Test.class
+com\testserver\testcases\ZLogout_Test.class
 com\testserver\testcases\DInsurance_Test.class
+com\testserver\testcases\FRTV_Test.class

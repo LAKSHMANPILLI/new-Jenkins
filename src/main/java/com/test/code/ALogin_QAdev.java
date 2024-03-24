@@ -14,6 +14,9 @@ import org.openqa.selenium.support.PageFactory;
 
 import com.test.baseclass.initialiazeChrome;
 public class ALogin_QAdev extends initialiazeChrome {
+	
+	
+	//page factory -Object repositories
 	@FindBy(xpath = "//input[@placeholder='Enter Email']")
 	WebElement email;
 
@@ -22,6 +25,10 @@ public class ALogin_QAdev extends initialiazeChrome {
 	@FindBy(xpath = "//span[text()='Sign in']")
 	WebElement loginButton;
 
+	//How to initialize the elements with the help of page factory? create a constructor
+	//this current class object
+	//instead of this login.class name we can write
+	// initializing the page objects
 	public ALogin_QAdev(){
 		PageFactory.initElements(driver,this);
 	}
@@ -32,6 +39,8 @@ public class ALogin_QAdev extends initialiazeChrome {
 	// email.sendKeys(prop.getProperty("Email"));
     // pwd.sendKeys(prop.getProperty("Password"));
 	
+	
+	
 	public String getExcelData(String Sheetname, int row, int cell) throws InterruptedException, EncryptedDocumentException, IOException {
 		Thread.sleep(2000);
 		FileInputStream fis = new FileInputStream("C:\\Users\\Blubirch\\eclipse-workspace\\QAtest\\src\\main\\resources\\login.xlsx");
@@ -39,6 +48,7 @@ public class ALogin_QAdev extends initialiazeChrome {
 		String Data = wb.getSheet(Sheetname).getRow(row).getCell(cell).getStringCellValue();
 		return Data;
 	}
+	//Actions
 	
 	public void loginWithValid(String USERNAME, String password) throws InterruptedException {
 		Thread.sleep(2000);

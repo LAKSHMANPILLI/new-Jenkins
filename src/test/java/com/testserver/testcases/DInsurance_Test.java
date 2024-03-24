@@ -5,9 +5,10 @@ import java.awt.AWTException;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import com.test.baseclass.initialiazeChrome;
 import com.test.code.DInsurance;
 
-public class DInsurance_Test {
+public class DInsurance_Test extends initialiazeChrome {
 	
 	DInsurance insu1;
 	@BeforeTest
@@ -74,24 +75,23 @@ public class DInsurance_Test {
 	public void insuSurveyorSelectItem() throws InterruptedException {
 		insu1.insuSurveyorSelectItem();
 	}
+//	@Test(priority = 13)
+//	public void insuSurveyorUpdateInfo() throws InterruptedException  {
+//		insu1.insuSurveyorUpdateInfo();
+//	}
 	@Test(priority = 13)
-	public void insuSurveyorUpdateInfo() throws InterruptedException  {
-		insu1.insuSurveyorUpdateInfo();
-	}
-	@Test(priority = 14)
 	public void insuSurveyorClaimInspectionDate() throws InterruptedException {
-		Thread.sleep(500);
 		insu1.insuSurveyorClaimInspectionDate();
 	}
-	@Test(priority = 15)
+	@Test(priority = 14)
 	public void InsuSurveyorAddRemarks() throws InterruptedException {
 		insu1.InsuSurveyorAddRemarks();
 	}
-	@Test(priority = 16)
+	@Test(priority = 15)
 	public void insuAttachDocInspection() throws AWTException, InterruptedException {
 		insu1.insuAttachDocInspection();
 	}
-	@Test(priority = 17)
+	@Test(priority = 16)
 	public void insuConfirmThird()throws InterruptedException  {
 		insu1.insuConfirmThird();
 	}
@@ -101,28 +101,28 @@ public class DInsurance_Test {
 //	}
 	
 	
-	@Test(priority = 18)
+	@Test(priority = 17)
 	public void insuClaimResolutionApprove() throws InterruptedException {
 		insu1.insuClaimResolutionApprove();
 	}
-	@Test(priority = 19)
+	@Test(priority = 18)
 	public void insuClaimResolutionApprovelDate() throws InterruptedException {
 		insu1.insuClaimResolutionApprovelDate();
 	}
-	@Test(priority = 20)
+	@Test(priority = 19)
 	public void insuClaimResolutionApprovedAmount() {
 		insu1.insuClaimResolutionApprovedAmount();
 	}
-	@Test(priority = 21)
+	@Test(priority = 20)
 	public void insuClaimResolutionAddRemarks() throws InterruptedException {
 		insu1.insuClaimResolutionAddRemarks();
 	}
 	
-	@Test(priority = 22)
+	@Test(priority = 21)
 	public void insuAttachDocClaimresolution() throws InterruptedException, AWTException {
 		insu1.insuAttachDocClaimresolution();
 	}
-	@Test(priority = 23)
+	@Test(priority = 22)
 	public void insuConfirmFourth() throws InterruptedException {
 		insu1.insuConfirmFourth();
 	}
@@ -130,29 +130,29 @@ public class DInsurance_Test {
 //	public void insuPendingLiquidation() throws InterruptedException {
 //	insu1.insuPendingLiquidation();
 //	}
-	@Test(priority = 24)
+	@Test(priority = 23)
 	public void insuPendingLiquidationSelectItem() throws InterruptedException {
 		insu1.insuPendingLiquidationSelectItem();
 	}
-	@Test(priority = 25)
+	@Test(priority = 24)
 	public void insuPendingLiquidSetDisposition() throws InterruptedException {
 		insu1.insuPendingLiquidSetDisposition();
 	}
-	@Test(priority = 26)
+	@Test(priority = 25)
 	public void insuSetDispositionLiquidation() throws InterruptedException {
 		Thread.sleep(500);
 		insu1.insuSetDispositionLiquidation();
 	}
-	@Test(priority = 27)
+	@Test(priority = 26)
 	public void insuPendingLiquidationAddRemarks() throws InterruptedException {
 		insu1.insuPendingLiquidationAddRemarks();
 	}
 	
-	@Test(priority = 28)
+	@Test(priority = 27)
 	public void insuAttachDocPendingLiqui()throws InterruptedException, AWTException  {
 		insu1.insuAttachDocPendingLiqui();
 	}
-	@Test(priority = 29)
+	@Test(priority = 28)
 	public void insuConfirm5th()throws InterruptedException  {
 		insu1.insuConfirm5th();
 	}

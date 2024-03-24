@@ -37,6 +37,6 @@
 			<attribute name="optional" value="true"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry kind="lib" path="jars/selenium-server-standalone-3.141.59.jar"/>
+	<classpathentry exported="true" kind="lib" path="jars/selenium-server-standalone-3.141.59.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

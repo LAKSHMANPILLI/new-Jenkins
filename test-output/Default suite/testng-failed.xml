@@ -3,14 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="com.testserver.testcases.Login_QATest">
+      <class name="com.testserver.testcases.DInsurance_Test">
         <methods>
-          <include name="signIn"/>
-          <include name="setUp"/>
-          <include name="tearDown"/>
-          <include name="loginTest"/>
+          <include name="dispositionInsurance"/>
+          <include name="insuSurveyorUpdateInfo"/>
         </methods>
-      </class> <!-- com.testserver.testcases.Login_QATest -->
+      </class> <!-- com.testserver.testcases.DInsurance_Test -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

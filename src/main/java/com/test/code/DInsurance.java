@@ -76,9 +76,9 @@ public class DInsurance extends initialiazeChrome{
 	private WebElement InsuSurveyorInspection;
 	@FindBy(xpath="(//tr/descendant::img[@title='Insurance Inspection'])[1]")
 	private WebElement InsuSurveyorSelectItem;
-	@FindBy(xpath="//span[text()='Update Info']/parent::button")
+	@FindBy(xpath="//button[@class='ma-2 v-btn v-btn--contained theme--light v-size--default primary']/parent::div")
 	private WebElement InsuSurveyorUpdateInfo;
-	@FindBy(xpath="//label[text()='Claim Inspection Date*']/following-sibling::input")
+	@FindBy(xpath="//label[text()='Claim Inspection Date*']/following-sibling::input/parent::div")
 	private WebElement InsuSurveyorClaimInspectionDate;
 	@FindBy(xpath="//label[text()='Add Remarks*']/following-sibling::textarea[@name='remark']")
 	private WebElement InsuSurveyorAddRemarks;
@@ -209,11 +209,11 @@ public class DInsurance extends initialiazeChrome{
 		InsuUpdateClaimRegist.click();
 	}
 	public void insuUpdateCallSelectItem() throws InterruptedException {
-		Thread.sleep(1500);
+		Thread.sleep(2000);
 		InsuUpdateCallSelectItem.click();
 	}
 	public void insuUpdateClaimCallLog() throws InterruptedException {
-		Thread.sleep(500);
+		Thread.sleep(1000);
 		InsuUpdateClaimCallLog.click();
 	}
 	public void insuEnterCallLog() throws InterruptedException {
@@ -233,16 +233,18 @@ public class DInsurance extends initialiazeChrome{
 		InsuSurveyorInspection.click();
 	}
 	public void insuSurveyorSelectItem() throws InterruptedException {
-		Thread.sleep(1000);
+		Thread.sleep(2000);
 		InsuSurveyorSelectItem.click();
-	}
-	public void insuSurveyorUpdateInfo() throws InterruptedException {
-		Thread.sleep(1000);
-		InsuSurveyorUpdateInfo.click();
-	}
-	public void insuSurveyorClaimInspectionDate() throws InterruptedException {
 		Thread.sleep(500);
+	}
+//	public void insuSurveyorUpdateInfo() throws InterruptedException{
+//		Thread.sleep(2000);
+//		InsuSurveyorUpdateInfo.click();
+//	}
+	public void insuSurveyorClaimInspectionDate() throws InterruptedException {
+		Thread.sleep(1500);
 		InsuSurveyorClaimInspectionDate.click();
+		Thread.sleep(500);
 		monthclick.click();
 		Thread.sleep(500);
 		yearclick.click();
