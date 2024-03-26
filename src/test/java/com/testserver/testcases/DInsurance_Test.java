@@ -157,7 +157,7 @@ public class DInsurance_Test extends initialiazeChrome {
 		insu1.insuConfirm5th();
 	}
 	
-	@Test(priority = 29)
+	@Test(priority = 30)
 	public void Disposition() throws InterruptedException {
 		insu1.DispositionGoback();
 	}

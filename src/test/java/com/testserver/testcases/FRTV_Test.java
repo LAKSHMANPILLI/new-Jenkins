@@ -58,14 +58,19 @@ public class FRTV_Test extends initialiazeChrome {
 		rtv.RTVVendorcode();
 	}
 	@Test(priority = 11)
+	public void RTVVendorDropdown() throws InterruptedException, AWTException {
+		rtv.RTVVendorDropdown();
+	}
+
+	@Test(priority = 12)
 	public void RTVLotName() throws InterruptedException {
 		rtv.RTVLotName();
 	}
-	@Test(priority = 12)
+	@Test(priority = 13)
 	public void RTVConfirmDispatch() throws InterruptedException {
 		rtv.RTVConfirmDispatch();
 	}
-	@Test(priority = 13)
+	@Test(priority = 14)
 	public void RTVDispatchOkbutton() throws InterruptedException {
 		rtv.RTVDispatchOkbutton();
 	}

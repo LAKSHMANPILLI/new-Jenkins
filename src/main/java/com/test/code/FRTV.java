@@ -6,7 +6,9 @@ import java.awt.Toolkit;
 import java.awt.datatransfer.StringSelection;
 import java.awt.event.KeyEvent;
 
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 import org.testng.Assert;
@@ -145,11 +147,14 @@ public class FRTV extends initialiazeChrome {
 
 	public void RTVVendorcode() throws AWTException, InterruptedException {
 		RTVVendorcode.click();
-		r1 = new Robot();
-		r1.delay(1000);
-		r1.keyPress(KeyEvent.VK_DOWN);
-		Thread.sleep(500);
-		r1.keyPress(KeyEvent.VK_ENTER);
+	}
+	public void RTVVendorDropdown() throws AWTException, InterruptedException {
+		Thread.sleep(1000);
+		WebElement sele=driver.findElement(By.xpath("//div[text()='7100000260 - Sheeltron Digital system P Ltd']/parent::div"));
+		//WebElement sele=driver.findElement(By.xpath());
+		Thread.sleep(1000);
+		Actions act = new Actions(driver);
+        act.moveToElement(sele).click().build().perform();;
 	}
 
 	public void RTVLotName() throws InterruptedException {

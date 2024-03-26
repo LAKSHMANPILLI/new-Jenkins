@@ -5,8 +5,7 @@
     <classes>
       <class name="com.testserver.testcases.ALogin_QATest"/>
       <class name="com.testserver.testcases.BDisposition_Test"/>
-      <class name="com.testserver.testcases.CBrandcalllog_Test"/>
-      <class name="com.testserver.testcases.DInsurance_Test"/>
+      <class name="com.testserver.testcases.FRTV_Test"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

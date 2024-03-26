@@ -235,8 +235,12 @@ public class DInsurance extends initialiazeChrome{
 	public void insuSurveyorSelectItem() throws InterruptedException {
 		Thread.sleep(2000);
 		InsuSurveyorSelectItem.click();
-		Thread.sleep(500);
 	}
+	public void insuSurveyorUpdateInfo() throws InterruptedException {
+		Thread.sleep(1500);
+		InsuSurveyorUpdateInfo.click();
+	}
+	
 //	public void insuSurveyorUpdateInfo() throws InterruptedException{
 //		Thread.sleep(2000);
 //		InsuSurveyorUpdateInfo.click();
@@ -301,6 +305,7 @@ public class DInsurance extends initialiazeChrome{
 	public void insuClaimResolutionApprovelDate() throws InterruptedException {
 		Thread.sleep(500);
 		InsuClaimResolutionApprovelDate.click();
+		Thread.sleep(500);
 		monthclick.click();
 		Thread.sleep(500);
 		yearclick.click();
