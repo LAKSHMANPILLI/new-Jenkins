@@ -136,7 +136,7 @@ public class FRTV extends initialiazeChrome {
 	}
 
 	public void rtvSelectItemForDispatch() throws InterruptedException {
-		Thread.sleep(2000);
+		Thread.sleep(2500);
 		RTVSelectItem.click();
 	}
 

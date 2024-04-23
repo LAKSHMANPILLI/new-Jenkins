@@ -1,0 +1,482 @@
+<html>
+<head>
+<title>TestNG:  Surefire test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Surefire test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>79/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Apr 17 10:29:10 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>149 seconds (149872 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.testserver.testcases.BDisposition_Test.clickOnDispositionlinkTest()'><b>clickOnDispositionlinkTest</b><br>Test class: com.testserver.testcases.BDisposition_Test</td>
+<td></td>
+<td>4</td>
+<td>com.testserver.testcases.BDisposition_Test@5a63f509</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclUpdateSecond()'><b>bclUpdateSecond</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclBrandInspectionAttachDoc()'><b>bclBrandInspectionAttachDoc</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>3</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.Disposition()'><b>Disposition</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuEnterCallLog()'><b>insuEnterCallLog</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuClaimResolutionApprovedAmount()'><b>insuClaimResolutionApprovedAmount</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuAttachDocPendingLiqui()'><b>insuAttachDocPendingLiqui</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>3</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclBrandInspectionConfirm()'><b>bclBrandInspectionConfirm</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuUpdateCallSelectItem()'><b>insuUpdateCallSelectItem</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclEnterCallLog()'><b>bclEnterCallLog</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.Insurance1()'><b>Insurance1</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclAddremarks()'><b>bclAddremarks</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuClaimResolutionAddRemarks()'><b>insuClaimResolutionAddRemarks</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuPendingLiquidSetDisposition()'><b>insuPendingLiquidSetDisposition</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclBrandLocationInhouse()'><b>bclBrandLocationInhouse</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclInspectionThird()'><b>bclInspectionThird</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuClaimSubmitionDate()'><b>insuClaimSubmitionDate</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>4</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuConfirmFourth()'><b>insuConfirmFourth</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.clickBCL()'><b>clickBCL</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.Disposition()'><b>Disposition</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.ALogin_QATest.loginTest()'><b>loginTest</b><br>Test class: com.testserver.testcases.ALogin_QATest</td>
+<td></td>
+<td>8</td>
+<td>com.testserver.testcases.ALogin_QATest@703580bf</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.RTVLotName()'><b>RTVLotName</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclFirstConfirm()'><b>bclFirstConfirm</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test<br/>
+<a href="#Output-134048221" onClick='toggleBox("Output-134048221", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-134048221" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-134048221">
+BCL Fisrt screen updated succussfully<br/>
+</div>
+</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.ZLogout_Test.logout()'><b>logout</b><br>Test class: com.testserver.testcases.ZLogout_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.ZLogout_Test@4b0b0854</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.RTVDispatchOkbutton()'><b>RTVDispatchOkbutton</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclSelectItem()'><b>bclSelectItem</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclBrandResolution()'><b>bclBrandResolution</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.rtvSelectItemForDispatch()'><b>rtvSelectItemForDispatch</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.RTVAddRemarks()'><b>RTVAddRemarks</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuSelectItem()'><b>insuSelectItem</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>3</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuSurveyorClaimInspectionDate()'><b>insuSurveyorClaimInspectionDate</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>6</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclBrandResolutionConfirm()'><b>bclBrandResolutionConfirm</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.RTVConfirmDispatch()'><b>RTVConfirmDispatch</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclBrandResolutionRemarks()'><b>bclBrandResolutionRemarks</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclUpdateCallLogTag()'><b>bclUpdateCallLogTag</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclInspectionSelectTag()'><b>bclInspectionSelectTag</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuConfirm5th()'><b>insuConfirm5th</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.rtvSelectItem()'><b>rtvSelectItem</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.RTVVendorcode()'><b>RTVVendorcode</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuAddRemarks()'><b>insuAddRemarks</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclUpdateIntiation()'><b>bclUpdateIntiation</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.RTVVendorDropdown()'><b>RTVVendorDropdown</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.RTVMoveToDispatch()'><b>RTVMoveToDispatch</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclBrandResolutionAttachDoc()'><b>bclBrandResolutionAttachDoc</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuSurveyorSelectItem()'><b>insuSurveyorSelectItem</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclInspectionUpdate()'><b>bclInspectionUpdate</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclBrandSetDispoInsurance()'><b>bclBrandSetDispoInsurance</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.ZLogout_Test.Logout_Test()'><b>Logout_Test</b><br>Test class: com.testserver.testcases.ZLogout_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.ZLogout_Test@4b0b0854</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuAttachDocClaimresolution()'><b>insuAttachDocClaimresolution</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>3</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuPendingLiquidationSelectItem()'><b>insuPendingLiquidationSelectItem</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>4</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuClaimResolutionApprovelDate()'><b>insuClaimResolutionApprovelDate</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>5</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclResolutionSelectItem()'><b>bclResolutionSelectItem</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>4</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclBrandInspectionSetDisposition()'><b>bclBrandInspectionSetDisposition</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.InsuSurveyorAddRemarks()'><b>InsuSurveyorAddRemarks</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclInspectionBrandInspection()'><b>bclInspectionBrandInspection</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclEmailDate()'><b>bclEmailDate</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>3</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclSelectTag()'><b>bclSelectTag</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuClaimResolutionApprove()'><b>insuClaimResolutionApprove</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>6</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclEnterInvoice()'><b>bclEnterInvoice</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuConfirmSecond()'><b>insuConfirmSecond</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuAttachDoc()'><b>insuAttachDoc</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuAttachDocInspection()'><b>insuAttachDocInspection</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>3</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.RTVConfirm()'><b>RTVConfirm</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclBrandInspectionRemarks()'><b>bclBrandInspectionRemarks</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuSetDispositionLiquidation()'><b>insuSetDispositionLiquidation</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.RTVSetDisposition()'><b>RTVSetDisposition</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclSelectTagBrand()'><b>bclSelectTagBrand</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuPendingLiquidationAddRemarks()'><b>insuPendingLiquidationAddRemarks</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuUpdateClaimCallLog()'><b>insuUpdateClaimCallLog</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.RTVDispoToInsurance()'><b>RTVDispoToInsurance</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuConfirmThird()'><b>insuConfirmThird</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuClaimAmount()'><b>insuClaimAmount</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.RTV()'><b>RTV</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclInitiationLocation()'><b>bclInitiationLocation</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.FRTV_Test.RTVAttachDoc()'><b>RTVAttachDoc</b><br>Test class: com.testserver.testcases.FRTV_Test</td>
+<td></td>
+<td>2</td>
+<td>com.testserver.testcases.FRTV_Test@e056f20</td></tr>
+<tr>
+<td title='com.testserver.testcases.DInsurance_Test.insuConfirmFirst()'><b>insuConfirmFirst</b><br>Test class: com.testserver.testcases.DInsurance_Test</td>
+<td></td>
+<td>1</td>
+<td>com.testserver.testcases.DInsurance_Test@34b7ac2f</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclBrandInspectionDate()'><b>bclBrandInspectionDate</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>3</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclLocationInhouse()'><b>bclLocationInhouse</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+<tr>
+<td title='com.testserver.testcases.CBrandcalllog_Test.bclBrandInspectionLocation()'><b>bclBrandInspectionLocation</b><br>Test class: com.testserver.testcases.CBrandcalllog_Test</td>
+<td></td>
+<td>0</td>
+<td>com.testserver.testcases.CBrandcalllog_Test@6e4784bc</td></tr>
+</table><p>
+</body>
+</html>
