@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="157.43" tests="79" errors="0" skipped="0" failures="0">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="webdriver.chrome.driver" value="C:\Users\L\eclipse-workspace\new-Jenkins-main\new-Jenkins-main\src\main\resources\chromedriver.exe"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="sun.awt.enableExtraMouseButtons" value="true"/>
+    <property name="java.class.path" value="C:\Users\L\eclipse-workspace\new-Jenkins-main\new-Jenkins-main\target\test-classes;C:\Users\L\eclipse-workspace\new-Jenkins-main\new-Jenkins-main\target\classes;C:\Users\L\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\L\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\L\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\L\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\L\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\L\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\L\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\L\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\L\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\L\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\L\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\L\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\L\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\L\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\L\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\L\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\L\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\L\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\L\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\L\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\L\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\L\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\L\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\L\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\L\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\L\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\L\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\L\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\L\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\L\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\L\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\L\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\L\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\L\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\L\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\L\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\L\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\L\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\L\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\L\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\L\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\L\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\L\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\L\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\L\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\L\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\L\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\L\.m2\repository\org\apache\poi\poi-scratchpad\5.2.2\poi-scratchpad-5.2.2.jar;"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://java.oracle.com/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk-21\bin"/>
+    <property name="sun.java.command" value="C:\Users\L\AppData\Local\Temp\surefire7399537857515690688\surefirebooter-20240530112525528_3.jar C:\Users\L\AppData\Local\Temp\surefire7399537857515690688 2024-05-30T11-25-25_391-jvmRun1 surefire-20240530112525528_1tmp surefire_0-20240530112525528_2tmp"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\L\eclipse-workspace\new-Jenkins-main\new-Jenkins-main\target\test-classes;C:\Users\L\eclipse-workspace\new-Jenkins-main\new-Jenkins-main\target\classes;C:\Users\L\.m2\repository\org\testng\testng\7.9.0\testng-7.9.0.jar;C:\Users\L\.m2\repository\org\slf4j\slf4j-api\1.7.36\slf4j-api-1.7.36.jar;C:\Users\L\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\L\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-java\3.141.59\selenium-java-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-api\3.141.59\selenium-api-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.141.59\selenium-chrome-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.141.59\selenium-edge-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.141.59\selenium-firefox-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.141.59\selenium-ie-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.141.59\selenium-opera-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.141.59\selenium-remote-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.141.59\selenium-safari-driver-3.141.59.jar;C:\Users\L\.m2\repository\org\seleniumhq\selenium\selenium-support\3.141.59\selenium-support-3.141.59.jar;C:\Users\L\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\L\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\L\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\L\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\L\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\L\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\L\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\L\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\L\.m2\repository\com\squareup\okhttp3\okhttp\3.11.0\okhttp-3.11.0.jar;C:\Users\L\.m2\repository\com\squareup\okio\okio\1.14.0\okio-1.14.0.jar;C:\Users\L\.m2\repository\io\github\bonigarcia\webdrivermanager\5.7.0\webdrivermanager-5.7.0.jar;C:\Users\L\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\L\.m2\repository\com\github\docker-java\docker-java\3.3.5\docker-java-3.3.5.jar;C:\Users\L\.m2\repository\com\github\docker-java\docker-java-core\3.3.5\docker-java-core-3.3.5.jar;C:\Users\L\.m2\repository\com\github\docker-java\docker-java-api\3.3.5\docker-java-api-3.3.5.jar;C:\Users\L\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\L\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\L\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\L\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\L\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\L\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\L\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\L\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.5\docker-java-transport-httpclient5-3.3.5.jar;C:\Users\L\.m2\repository\com\github\docker-java\docker-java-transport\3.3.5\docker-java-transport-3.3.5.jar;C:\Users\L\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\L\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\L\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\L\.m2\repository\org\apache\commons\commons-compress\1.26.0\commons-compress-1.26.0.jar;C:\Users\L\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\L\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\L\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\L\.m2\repository\org\apache\poi\poi-ooxml\5.2.2\poi-ooxml-5.2.2.jar;C:\Users\L\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.2\poi-ooxml-lite-5.2.2.jar;C:\Users\L\.m2\repository\org\apache\xmlbeans\xmlbeans\5.0.3\xmlbeans-5.0.3.jar;C:\Users\L\.m2\repository\commons-io\commons-io\2.11.0\commons-io-2.11.0.jar;C:\Users\L\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\L\.m2\repository\org\apache\logging\log4j\log4j-api\2.17.2\log4j-api-2.17.2.jar;C:\Users\L\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\L\.m2\repository\org\apache\poi\poi\5.2.2\poi-5.2.2.jar;C:\Users\L\.m2\repository\commons-codec\commons-codec\1.15\commons-codec-1.15.jar;C:\Users\L\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\L\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\L\.m2\repository\org\apache\poi\poi-ooxml-schemas\4.1.2\poi-ooxml-schemas-4.1.2.jar;C:\Users\L\.m2\repository\org\apache\poi\poi-scratchpad\5.2.2\poi-scratchpad-5.2.2.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\L"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk-21"/>
+    <property name="javax.accessibility.assistive_technologies" value="com.sun.java.accessibility.AccessBridge"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\L\eclipse-workspace\new-Jenkins-main\new-Jenkins-main"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="32-bit"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="javax.accessibility.screen_magnifier_present" value="true"/>
+    <property name="surefire.real.class.path" value="C:\Users\L\AppData\Local\Temp\surefire7399537857515690688\surefirebooter-20240530112525528_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.3+7-LTS-152"/>
+    <property name="user.name" value="L"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="localRepository" value="C:\Users\L\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://bugreport.java.com/bugreport/"/>
+    <property name="java.io.tmpdir" value="C:\Users\L\AppData\Local\Temp\"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="C:\Users\L\eclipse-workspace\new-Jenkins-main\new-Jenkins-main"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk-21\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files\Common Files\Oracle\Java\javapath;D:\oracle\product\10.2.0\db_5\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\Java\jdk-21\bin;C:\Program Files\Java\apache-maven-3.9.6\bin;C:\Program Files\Git\cmd;C:\Users\L\AppData\Local\Microsoft\WindowsApps;C:\Program Files\Java\jdk1.8.0_192\bin;C:\Users\L\AppData\Local\Programs\Microsoft VS Code\bin;;."/>
+    <property name="java.vm.info" value="mixed mode, sharing"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="java.vm.version" value="21.0.3+7-LTS-152"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="loginTest" classname="com.testserver.testcases.ALogin_QATest" time="8.227">
+    <system-out><![CDATA[lakshmanarao@blubirch.com
+blubirch123
+]]></system-out>
+    <system-err><![CDATA[SLF4J: Failed to load class "org.slf4j.impl.StaticLoggerBinder".
+SLF4J: Defaulting to no-operation (NOP) logger implementation
+SLF4J: See http://www.slf4j.org/codes.html#StaticLoggerBinder for further details.
+Starting ChromeDriver 125.0.6422.78 (14db42ec38aded3304a3e624a0a038e02956b87e-refs/branch-heads/6422@{#1088}) on port 63900
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+May 30, 2024 11:25:27 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+ERROR StatusLogger Log4j2 could not find a logging implementation. Please add log4j-core to the classpath. Using SimpleLogger to log to the console...
+]]></system-err>
+  </testcase>
+  <testcase name="clickOnDispositionlinkTest" classname="com.testserver.testcases.BDisposition_Test" time="4.676"/>
+  <testcase name="clickBCL" classname="com.testserver.testcases.CBrandcalllog_Test" time="2.978">
+    <system-out><![CDATA[28207
+28207
+Open cases count validated
+]]></system-out>
+  </testcase>
+  <testcase name="bclSelectTag" classname="com.testserver.testcases.CBrandcalllog_Test" time="1.614"/>
+  <testcase name="bclUpdateIntiation" classname="com.testserver.testcases.CBrandcalllog_Test" time="0.762"/>
+  <testcase name="bclEmailDate" classname="com.testserver.testcases.CBrandcalllog_Test" time="3.475"/>
+  <testcase name="bclInitiationLocation" classname="com.testserver.testcases.CBrandcalllog_Test" time="1.236"/>
+  <testcase name="bclLocationInhouse" classname="com.testserver.testcases.CBrandcalllog_Test" time="0.212"/>
+  <testcase name="bclAddremarks" classname="com.testserver.testcases.CBrandcalllog_Test" time="1.119"/>
+  <testcase name="bclFirstConfirm" classname="com.testserver.testcases.CBrandcalllog_Test" time="0.514"/>
+  <testcase name="bclSelectItem" classname="com.testserver.testcases.CBrandcalllog_Test" time="1.885"/>
+  <testcase name="bclUpdateCallLogTag" classname="com.testserver.testcases.CBrandcalllog_Test" time="1.202"/>
+  <testcase name="bclEnterCallLog" classname="com.testserver.testcases.CBrandcalllog_Test" time="1.031"/>
+  <testcase name="bclUpdateSecond" classname="com.testserver.testcases.CBrandcalllog_Test" time="0.291">
+    <system-out><![CDATA[Call Log Number Updated succusfully
+]]></system-out>
+  </testcase>
+  <testcase name="bclInspectionSelectTag" classname="com.testserver.testcases.CBrandcalllog_Test" time="1.836"/>
+  <testcase name="bclInspectionUpdate" classname="com.testserver.testcases.CBrandcalllog_Test" time="0.66"/>
+  <testcase name="bclEnterInvoice" classname="com.testserver.testcases.CBrandcalllog_Test" time="1.122"/>
+  <testcase name="bclInspectionThird" classname="com.testserver.testcases.CBrandcalllog_Test" time="0.389"/>
+  <testcase name="bclSelectTagBrand" classname="com.testserver.testcases.CBrandcalllog_Test" time="1.159"/>
+  <testcase name="bclInspectionBrandInspection" classname="com.testserver.testcases.CBrandcalllog_Test" time="0.713"/>
+  <testcase name="bclBrandInspectionDate" classname="com.testserver.testcases.CBrandcalllog_Test" time="3.485"/>
+  <testcase name="bclBrandInspectionLocation" classname="com.testserver.testcases.CBrandcalllog_Test" time="0.62"/>
+  <testcase name="bclBrandLocationInhouse" classname="com.testserver.testcases.CBrandcalllog_Test" time="0.181"/>
+  <testcase name="bclBrandInspectionRemarks" classname="com.testserver.testcases.CBrandcalllog_Test" time="1.073"/>
+  <testcase name="bclBrandInspectionAttachDoc" classname="com.testserver.testcases.CBrandcalllog_Test" time="3.258"/>
+  <testcase name="bclBrandInspectionConfirm" classname="com.testserver.testcases.CBrandcalllog_Test" time="2.14">
+    <system-out><![CDATA[Brand Inpsetion Succussfully verifyied
+]]></system-out>
+  </testcase>
+  <testcase name="bclResolutionSelectItem" classname="com.testserver.testcases.CBrandcalllog_Test" time="3.185"/>
+  <testcase name="bclBrandResolution" classname="com.testserver.testcases.CBrandcalllog_Test" time="1.708"/>
+  <testcase name="bclBrandInspectionSetDisposition" classname="com.testserver.testcases.CBrandcalllog_Test" time="0.246"/>
+  <testcase name="bclBrandSetDispoInsurance" classname="com.testserver.testcases.CBrandcalllog_Test" time="0.623"/>
+  <testcase name="bclBrandResolutionRemarks" classname="com.testserver.testcases.CBrandcalllog_Test" time="1.064"/>
+  <testcase name="bclBrandResolutionAttachDoc" classname="com.testserver.testcases.CBrandcalllog_Test" time="2.889"/>
+  <testcase name="bclBrandResolutionConfirm" classname="com.testserver.testcases.CBrandcalllog_Test" time="2.266">
+    <system-out><![CDATA[Brand Resolution Succussfully verifyied
+]]></system-out>
+  </testcase>
+  <testcase name="Disposition" classname="com.testserver.testcases.CBrandcalllog_Test" time="2.193"/>
+  <testcase name="Insurance1" classname="com.testserver.testcases.DInsurance_Test" time="2.142">
+    <system-out><![CDATA[445
+445
+Open cases count validated
+]]></system-out>
+  </testcase>
+  <testcase name="insuSelectItem" classname="com.testserver.testcases.DInsurance_Test" time="2.878"/>
+  <testcase name="insuClaimSubmitionDate" classname="com.testserver.testcases.DInsurance_Test" time="4.453"/>
+  <testcase name="insuClaimAmount" classname="com.testserver.testcases.DInsurance_Test" time="1.286"/>
+  <testcase name="insuAddRemarks" classname="com.testserver.testcases.DInsurance_Test" time="1.371"/>
+  <testcase name="insuAttachDoc" classname="com.testserver.testcases.DInsurance_Test" time="2.703"/>
+  <testcase name="insuConfirmFirst" classname="com.testserver.testcases.DInsurance_Test" time="3.172">
+    <system-out><![CDATA[Pending claim registration succussfully updated
+]]></system-out>
+  </testcase>
+  <testcase name="insuUpdateCallSelectItem" classname="com.testserver.testcases.DInsurance_Test" time="2.195"/>
+  <testcase name="insuUpdateClaimCallLog" classname="com.testserver.testcases.DInsurance_Test" time="2.129"/>
+  <testcase name="insuEnterCallLog" classname="com.testserver.testcases.DInsurance_Test" time="1.067"/>
+  <testcase name="insuConfirmSecond" classname="com.testserver.testcases.DInsurance_Test" time="0.638">
+    <system-out><![CDATA[CallLog No. updated succussfully
+]]></system-out>
+  </testcase>
+  <testcase name="insuSurveyorSelectItem" classname="com.testserver.testcases.DInsurance_Test" time="2.216"/>
+  <testcase name="insuSurveyorClaimInspectionDate" classname="com.testserver.testcases.DInsurance_Test" time="6.559"/>
+  <testcase name="InsuSurveyorAddRemarks" classname="com.testserver.testcases.DInsurance_Test" time="1.025"/>
+  <testcase name="insuAttachDocInspection" classname="com.testserver.testcases.DInsurance_Test" time="3.191"/>
+  <testcase name="insuConfirmThird" classname="com.testserver.testcases.DInsurance_Test" time="1.154">
+    <system-out><![CDATA[Pending surveyor inspection verifyied succusfully
+]]></system-out>
+  </testcase>
+  <testcase name="insuClaimResolutionApprove" classname="com.testserver.testcases.DInsurance_Test" time="2.758"/>
+  <testcase name="insuClaimResolutionApprovelDate" classname="com.testserver.testcases.DInsurance_Test" time="5.549"/>
+  <testcase name="insuClaimResolutionApprovedAmount" classname="com.testserver.testcases.DInsurance_Test" time="0.4"/>
+  <testcase name="insuClaimResolutionAddRemarks" classname="com.testserver.testcases.DInsurance_Test" time="0.52"/>
+  <testcase name="insuAttachDocClaimresolution" classname="com.testserver.testcases.DInsurance_Test" time="3.17"/>
+  <testcase name="insuConfirmFourth" classname="com.testserver.testcases.DInsurance_Test" time="1.688">
+    <system-out><![CDATA[Pending claim resolution updated succussfully
+]]></system-out>
+  </testcase>
+  <testcase name="insuPendingLiquidationSelectItem" classname="com.testserver.testcases.DInsurance_Test" time="2.755"/>
+  <testcase name="insuPendingLiquidSetDisposition" classname="com.testserver.testcases.DInsurance_Test" time="1.234"/>
+  <testcase name="insuSetDispositionLiquidation" classname="com.testserver.testcases.DInsurance_Test" time="1.229"/>
+  <testcase name="insuPendingLiquidationAddRemarks" classname="com.testserver.testcases.DInsurance_Test" time="2.108"/>
+  <testcase name="insuAttachDocPendingLiqui" classname="com.testserver.testcases.DInsurance_Test" time="3.158"/>
+  <testcase name="insuConfirm5th" classname="com.testserver.testcases.DInsurance_Test" time="1.703">
+    <system-out><![CDATA[Pending liquidation item succussfully moved 
+]]></system-out>
+  </testcase>
+  <testcase name="Disposition" classname="com.testserver.testcases.DInsurance_Test" time="2.196"/>
+  <testcase name="RTV" classname="com.testserver.testcases.FRTV_Test" time="2.119">
+    <system-out><![CDATA[129415
+129415
+Open cases count validated
+]]></system-out>
+  </testcase>
+  <testcase name="rtvSelectItem" classname="com.testserver.testcases.FRTV_Test" time="1.847"/>
+  <testcase name="RTVSetDisposition" classname="com.testserver.testcases.FRTV_Test" time="1.588"/>
+  <testcase name="RTVDispoToInsurance" classname="com.testserver.testcases.FRTV_Test" time="1.658"/>
+  <testcase name="RTVAddRemarks" classname="com.testserver.testcases.FRTV_Test" time="0.825"/>
+  <testcase name="RTVAttachDoc" classname="com.testserver.testcases.FRTV_Test" time="2.649"/>
+  <testcase name="RTVConfirm" classname="com.testserver.testcases.FRTV_Test" time="1.671"/>
+  <testcase name="rtvSelectItemForDispatch" classname="com.testserver.testcases.FRTV_Test" time="3.154"/>
+  <testcase name="RTVMoveToDispatch" classname="com.testserver.testcases.FRTV_Test" time="2.186"/>
+  <testcase name="RTVVendorcode" classname="com.testserver.testcases.FRTV_Test" time="0.199"/>
+  <testcase name="RTVVendorDropdown" classname="com.testserver.testcases.FRTV_Test" time="2.262"/>
+  <testcase name="RTVLotName" classname="com.testserver.testcases.FRTV_Test" time="0.837"/>
+  <testcase name="RTVConfirmDispatch" classname="com.testserver.testcases.FRTV_Test" time="1.631"/>
+  <testcase name="RTVDispatchOkbutton" classname="com.testserver.testcases.FRTV_Test" time="1.665">
+    <system-out><![CDATA[Lot succussfully created from RTV
+]]></system-out>
+  </testcase>
+  <testcase name="logout" classname="com.testserver.testcases.ZLogout_Test" time="1.114"/>
+  <testcase name="Logout_Test" classname="com.testserver.testcases.ZLogout_Test" time="1.091"/>
+</testsuite>

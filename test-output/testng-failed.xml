@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.testserver.testcases.FRTV_Test">
+        <methods>
+          <include name="RTVConfirm"/>
+          <include name="RTVLotName"/>
+          <include name="rtvSelectItemForDispatch"/>
+          <include name="RTVDispatchOkbutton"/>
+          <include name="RTVDispoToInsurance"/>
+          <include name="RTVSetDisposition"/>
+          <include name="RTVVendorDropdown"/>
+          <include name="RTV"/>
+          <include name="RTVAddRemarks"/>
+          <include name="RTVMoveToDispatch"/>
+          <include name="RTVAttachDoc"/>
+          <include name="RTVConfirmDispatch"/>
+          <include name="RTV1"/>
+          <include name="RTVVendorcode"/>
+          <include name="rtvSelectItem"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.FRTV_Test -->
+      <class name="com.testserver.testcases.ALogin_QATest">
+        <methods>
+          <include name="signIn"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.ALogin_QATest -->
+      <class name="com.testserver.testcases.BDisposition_Test">
+        <methods>
+          <include name="clickOnDispositionlinkTest"/>
+          <include name="dispositonBCL"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.BDisposition_Test -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

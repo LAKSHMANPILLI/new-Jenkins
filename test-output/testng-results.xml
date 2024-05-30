@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="16" passed="16" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-05-26T11:38:01 IST" name="Suite" finished-at="2024-05-26T11:38:37 IST" duration-ms="35788">
+    <groups>
+    </groups>
+    <test started-at="2024-05-26T11:38:01 IST" name="Test" finished-at="2024-05-26T11:38:37 IST" duration-ms="35788">
+      <class name="com.testserver.testcases.BDisposition_Test">
+        <test-method is-config="true" signature="dispositonBCL()[pri:0, instance:com.testserver.testcases.BDisposition_Test@399f45b1]" started-at="2024-05-26T11:38:01 IST" name="dispositonBCL" finished-at="2024-05-26T11:38:01 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dispositonBCL -->
+        <test-method signature="clickOnDispositionlinkTest()[pri:1, instance:com.testserver.testcases.BDisposition_Test@399f45b1]" started-at="2024-05-26T11:38:09 IST" name="clickOnDispositionlinkTest" finished-at="2024-05-26T11:38:14 IST" duration-ms="4681" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickOnDispositionlinkTest -->
+      </class> <!-- com.testserver.testcases.BDisposition_Test -->
+      <class name="com.testserver.testcases.ALogin_QATest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testserver.testcases.ALogin_QATest@6c64cb25]" started-at="2024-05-26T11:37:58 IST" name="setUp" finished-at="2024-05-26T11:38:01 IST" duration-ms="3387" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:com.testserver.testcases.ALogin_QATest@6c64cb25]" started-at="2024-05-26T11:38:01 IST" name="signIn" finished-at="2024-05-26T11:38:01 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="loginTest()[pri:0, instance:com.testserver.testcases.ALogin_QATest@6c64cb25]" started-at="2024-05-26T11:38:01 IST" name="loginTest" finished-at="2024-05-26T11:38:09 IST" duration-ms="8066" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testserver.testcases.ALogin_QATest@6c64cb25]" started-at="2024-05-26T11:38:37 IST" name="tearDown" finished-at="2024-05-26T11:38:37 IST" duration-ms="321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.testserver.testcases.ALogin_QATest -->
+      <class name="com.testserver.testcases.FRTV_Test">
+        <test-method is-config="true" signature="RTV1()[pri:0, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:01 IST" name="RTV1" finished-at="2024-05-26T11:38:01 IST" duration-ms="4" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTV1 -->
+        <test-method signature="RTV()[pri:1, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:14 IST" name="RTV" finished-at="2024-05-26T11:38:16 IST" duration-ms="1891" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTV -->
+        <test-method signature="rtvSelectItem()[pri:2, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:16 IST" name="rtvSelectItem" finished-at="2024-05-26T11:38:18 IST" duration-ms="1686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtvSelectItem -->
+        <test-method signature="RTVSetDisposition()[pri:3, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:18 IST" name="RTVSetDisposition" finished-at="2024-05-26T11:38:19 IST" duration-ms="1706" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVSetDisposition -->
+        <test-method signature="RTVDispoToInsurance()[pri:4, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:19 IST" name="RTVDispoToInsurance" finished-at="2024-05-26T11:38:21 IST" duration-ms="1637" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVDispoToInsurance -->
+        <test-method signature="RTVAddRemarks()[pri:5, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:21 IST" name="RTVAddRemarks" finished-at="2024-05-26T11:38:22 IST" duration-ms="839" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVAddRemarks -->
+        <test-method signature="RTVAttachDoc()[pri:6, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:22 IST" name="RTVAttachDoc" finished-at="2024-05-26T11:38:25 IST" duration-ms="2826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVAttachDoc -->
+        <test-method signature="RTVConfirm()[pri:7, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:25 IST" name="RTVConfirm" finished-at="2024-05-26T11:38:26 IST" duration-ms="1653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVConfirm -->
+        <test-method signature="rtvSelectItemForDispatch()[pri:8, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:26 IST" name="rtvSelectItemForDispatch" finished-at="2024-05-26T11:38:29 IST" duration-ms="2732" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtvSelectItemForDispatch -->
+        <test-method signature="RTVMoveToDispatch()[pri:9, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:29 IST" name="RTVMoveToDispatch" finished-at="2024-05-26T11:38:30 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVMoveToDispatch -->
+        <test-method signature="RTVVendorcode()[pri:10, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:30 IST" name="RTVVendorcode" finished-at="2024-05-26T11:38:31 IST" duration-ms="327" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVVendorcode -->
+        <test-method signature="RTVVendorDropdown()[pri:11, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:31 IST" name="RTVVendorDropdown" finished-at="2024-05-26T11:38:33 IST" duration-ms="2372" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVVendorDropdown -->
+        <test-method signature="RTVLotName()[pri:12, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:33 IST" name="RTVLotName" finished-at="2024-05-26T11:38:34 IST" duration-ms="1055" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVLotName -->
+        <test-method signature="RTVConfirmDispatch()[pri:13, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:34 IST" name="RTVConfirmDispatch" finished-at="2024-05-26T11:38:35 IST" duration-ms="1155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVConfirmDispatch -->
+        <test-method signature="RTVDispatchOkbutton()[pri:14, instance:com.testserver.testcases.FRTV_Test@38c6f217]" started-at="2024-05-26T11:38:35 IST" name="RTVDispatchOkbutton" finished-at="2024-05-26T11:38:37 IST" duration-ms="1701" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVDispatchOkbutton -->
+      </class> <!-- com.testserver.testcases.FRTV_Test -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
