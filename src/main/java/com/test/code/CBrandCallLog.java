@@ -38,8 +38,15 @@ public class CBrandCallLog extends initialiazeChrome {
 	private WebElement monthselect;
 	@FindBy(xpath = "//li[text()='2024']")
 	private WebElement yearSelect;
+<<<<<<< HEAD
 	@FindBy(xpath = "(//button[@class='v-btn v-btn--text v-btn--rounded theme--light'])[1]")
 	private WebElement dateClick;
+=======
+	@FindBy(xpath = "(//button[contains(@class,'v-btn v-date-picker-table__current v-btn--rounded v-btn--outlined theme--light accent--text')])[1]")
+	private WebElement dateClick;
+	@FindBy(xpath = "(//button[contains(@class,'v-btn v-date-picker-table__current v-btn--active v-btn--text v-btn--rounded theme--light accent')])[1]")
+	private WebElement dateClickBrand;
+>>>>>>> d10113d (First commit msg)
 		
 	
 	@FindBy(xpath = "//h5[@class='grey--text']/ancestor::td/child::h4[text()='Brand Call-Log']")
@@ -158,7 +165,11 @@ public class CBrandCallLog extends initialiazeChrome {
 		yearSelect.click();
 		Thread.sleep(500);
 		monthselect.click();
+<<<<<<< HEAD
 		Thread.sleep(500);
+=======
+		Thread.sleep(1000);
+>>>>>>> d10113d (First commit msg)
 		dateClick.click();
 		
 	}
@@ -248,8 +259,13 @@ public class CBrandCallLog extends initialiazeChrome {
 		yearSelect.click();
 		Thread.sleep(800);
 		monthselect.click();
+<<<<<<< HEAD
 		Thread.sleep(200);
 		dateClick.click();
+=======
+		Thread.sleep(1000);
+		dateClickBrand.click();
+>>>>>>> d10113d (First commit msg)
 	}
 	public void bclBrandInspectionLocation() throws InterruptedException {
 		Thread.sleep(500);
@@ -325,6 +341,7 @@ public class CBrandCallLog extends initialiazeChrome {
 		Thread.sleep(1000);
 		BclBrandInspectionConfirm.click();
 		System.out.println("Brand Inpsetion Succussfully verifyied");
+<<<<<<< HEAD
 		Thread.sleep(500);
 	}
 	//4RTH SCREEN
@@ -334,6 +351,17 @@ public class CBrandCallLog extends initialiazeChrome {
 	}
 	public void bclBrandResolution() throws InterruptedException {
 		Thread.sleep(1000);
+=======
+		Thread.sleep(1000);
+	}
+	//4RTH SCREEN
+	public void bclResolutionSelectItem() throws InterruptedException {
+		Thread.sleep(3000);
+		BclCallLogselectItem.click();
+	}
+	public void bclBrandResolution() throws InterruptedException {
+		Thread.sleep(1500);
+>>>>>>> d10113d (First commit msg)
 		BclBrandResolution.click();
 	}
 	public void bclBrandInspectionSetDisposition() throws InterruptedException {
@@ -368,9 +396,16 @@ public class CBrandCallLog extends initialiazeChrome {
 		Thread.sleep(200);
 	}
 	public void bclBrandResolutionConfirm() throws InterruptedException {
+<<<<<<< HEAD
 		Thread.sleep(500);
 		BclBrandResolutionConfirm.click();
 		System.out.println("Brand Resolution Succussfully verifyied");
+=======
+		Thread.sleep(1000);
+		BclBrandResolutionConfirm.click();
+		System.out.println("Brand Resolution Succussfully verifyied");
+		Thread.sleep(1000);
+>>>>>>> d10113d (First commit msg)
 	}
 	@FindBy(xpath="//span[text()='Disposition']/parent::div/ancestor::div[@class='list-unstyled components']")
 	private WebElement DispositionGoback;

@@ -20,7 +20,11 @@ public class BDisposition extends initialiazeChrome {
 	}
 	
 	public void clickOnDidposition() throws InterruptedException {//WAREHOUSEMANEGEMENT VERIFYCATION
+<<<<<<< HEAD
 		Thread.sleep(2000);
+=======
+		Thread.sleep(1000);
+>>>>>>> d10113d (First commit msg)
 		/*
 		//timing.explicitTextPresent(managementSystem, "Warehouse Management System");
 		int selectOptionTextsSize = warehouseLocators.size();

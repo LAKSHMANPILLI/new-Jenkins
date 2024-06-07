@@ -130,18 +130,30 @@ public class FRTV extends initialiazeChrome {
 	}
 
 	public void RTVConfirm() throws InterruptedException {
+<<<<<<< HEAD
 		Thread.sleep(500);
+=======
+		Thread.sleep(1000);
+>>>>>>> d10113d (First commit msg)
 		RTVConfirm.click();
 		Thread.sleep(1000);
 	}
 
 	public void rtvSelectItemForDispatch() throws InterruptedException {
+<<<<<<< HEAD
 		Thread.sleep(2500);
+=======
+		Thread.sleep(3000);
+>>>>>>> d10113d (First commit msg)
 		RTVSelectItem.click();
 	}
 
 	public void RTVMoveToDispatch() throws InterruptedException {
+<<<<<<< HEAD
 		Thread.sleep(1000);
+=======
+		Thread.sleep(2000);
+>>>>>>> d10113d (First commit msg)
 		RTVMoveToDispatch.click();
 	}
 
@@ -164,7 +176,11 @@ public class FRTV extends initialiazeChrome {
 	}
 
 	public void RTVConfirmDispatch() throws InterruptedException {
+<<<<<<< HEAD
 		Thread.sleep(500);
+=======
+		Thread.sleep(1000);
+>>>>>>> d10113d (First commit msg)
 		RTVConfirmDispatch.click();
 		Thread.sleep(500);
 		

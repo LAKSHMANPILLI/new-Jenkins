@@ -42,8 +42,13 @@ public class ALogin_QAdev extends initialiazeChrome {
 	
 	
 	public String getExcelData(String Sheetname, int row, int cell) throws InterruptedException, EncryptedDocumentException, IOException {
+<<<<<<< HEAD
 		Thread.sleep(2000);
 		FileInputStream fis = new FileInputStream("C:\\Users\\Blubirch\\eclipse-workspace\\QAtest\\src\\main\\resources\\login.xlsx");
+=======
+		Thread.sleep(1000);
+		FileInputStream fis = new FileInputStream("C:\\Users\\laksh\\eclipse-workspace\\Jenkin22-main\\src\\main\\resources\\login.xlsx");
+>>>>>>> d10113d (First commit msg)
 		Workbook wb = WorkbookFactory.create(fis);
 		String Data = wb.getSheet(Sheetname).getRow(row).getCell(cell).getStringCellValue();
 		return Data;
@@ -51,7 +56,11 @@ public class ALogin_QAdev extends initialiazeChrome {
 	//Actions
 	
 	public void loginWithValid(String USERNAME, String password) throws InterruptedException {
+<<<<<<< HEAD
 		Thread.sleep(2000);
+=======
+		Thread.sleep(1000);
+>>>>>>> d10113d (First commit msg)
 		email.sendKeys(USERNAME);	
 		pwd.sendKeys(password);
 		System.out.println(USERNAME);

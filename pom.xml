@@ -16,12 +16,20 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
 	<dependencies>
+<<<<<<< HEAD
+=======
+		<!-- https://mvnrepository.com/artifact/org.testng/testng -->
+>>>>>>> d10113d (First commit msg)
 		<dependency>
 			<groupId>org.testng</groupId>
 			<artifactId>testng</artifactId>
 			<version>7.9.0</version>
 			<scope>compile</scope>
 		</dependency>
+<<<<<<< HEAD
+=======
+
+>>>>>>> d10113d (First commit msg)
 		<!--
 		https://mvnrepository.com/artifact/org.seleniumhq.selenium/selenium-java -->
 		<dependency>

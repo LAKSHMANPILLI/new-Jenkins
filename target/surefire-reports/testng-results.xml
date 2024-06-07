@@ -5,6 +5,7 @@
       <![CDATA[BCL Fisrt screen updated succussfully]]>
     </line>
   </reporter-output>
+<<<<<<< HEAD
   <suite started-at="2024-04-17T10:29:10 IST" name="Surefire suite" finished-at="2024-04-17T10:31:40 IST" duration-ms="149872">
     <groups>
     </groups>
@@ -127,11 +128,136 @@
           </reporter-output>
         </test-method> <!-- insuConfirm5th -->
         <test-method signature="Disposition()[pri:30, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-04-17T10:31:13 IST" name="Disposition" finished-at="2024-04-17T10:31:15 IST" duration-ms="2118" status="PASS">
+=======
+  <suite started-at="2024-06-05T18:33:45 IST" name="Surefire suite" finished-at="2024-06-05T18:36:27 IST" duration-ms="162132">
+    <groups>
+    </groups>
+    <test started-at="2024-06-05T18:33:45 IST" name="Surefire test" finished-at="2024-06-05T18:36:27 IST" duration-ms="162132">
+      <class name="com.testserver.testcases.DInsurance_Test">
+        <test-method is-config="true" signature="dispositionInsurance()[pri:0, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:33:45 IST" name="dispositionInsurance" finished-at="2024-06-05T18:33:45 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dispositionInsurance -->
+        <test-method signature="Insurance1()[pri:1, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:34:41 IST" name="Insurance1" finished-at="2024-06-05T18:34:43 IST" duration-ms="2044" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Insurance1 -->
+        <test-method signature="insuSelectItem()[pri:2, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:34:43 IST" name="insuSelectItem" finished-at="2024-06-05T18:34:49 IST" duration-ms="5398" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuSelectItem -->
+        <test-method signature="insuClaimSubmitionDate()[pri:3, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:34:49 IST" name="insuClaimSubmitionDate" finished-at="2024-06-05T18:34:53 IST" duration-ms="4280" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuClaimSubmitionDate -->
+        <test-method signature="insuClaimAmount()[pri:4, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:34:53 IST" name="insuClaimAmount" finished-at="2024-06-05T18:34:54 IST" duration-ms="1301" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuClaimAmount -->
+        <test-method signature="insuAddRemarks()[pri:5, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:34:54 IST" name="insuAddRemarks" finished-at="2024-06-05T18:34:56 IST" duration-ms="1208" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuAddRemarks -->
+        <test-method signature="insuAttachDoc()[pri:6, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:34:56 IST" name="insuAttachDoc" finished-at="2024-06-05T18:34:58 IST" duration-ms="2669" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuAttachDoc -->
+        <test-method signature="insuConfirmFirst()[pri:7, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:34:58 IST" name="insuConfirmFirst" finished-at="2024-06-05T18:35:01 IST" duration-ms="3133" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuConfirmFirst -->
+        <test-method signature="insuUpdateCallSelectItem()[pri:8, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:01 IST" name="insuUpdateCallSelectItem" finished-at="2024-06-05T18:35:05 IST" duration-ms="3137" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuUpdateCallSelectItem -->
+        <test-method signature="insuUpdateClaimCallLog()[pri:9, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:05 IST" name="insuUpdateClaimCallLog" finished-at="2024-06-05T18:35:08 IST" duration-ms="3126" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuUpdateClaimCallLog -->
+        <test-method signature="insuEnterCallLog()[pri:10, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:08 IST" name="insuEnterCallLog" finished-at="2024-06-05T18:35:09 IST" duration-ms="1315" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuEnterCallLog -->
+        <test-method signature="insuConfirmSecond()[pri:11, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:09 IST" name="insuConfirmSecond" finished-at="2024-06-05T18:35:11 IST" duration-ms="1665" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuConfirmSecond -->
+        <test-method signature="insuSurveyorSelectItem()[pri:12, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:11 IST" name="insuSurveyorSelectItem" finished-at="2024-06-05T18:35:13 IST" duration-ms="2146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuSurveyorSelectItem -->
+        <test-method signature="insuSurveyorClaimInspectionDate()[pri:13, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:13 IST" name="insuSurveyorClaimInspectionDate" finished-at="2024-06-05T18:35:19 IST" duration-ms="6225" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuSurveyorClaimInspectionDate -->
+        <test-method signature="InsuSurveyorAddRemarks()[pri:14, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:19 IST" name="InsuSurveyorAddRemarks" finished-at="2024-06-05T18:35:20 IST" duration-ms="800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- InsuSurveyorAddRemarks -->
+        <test-method signature="insuAttachDocInspection()[pri:15, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:20 IST" name="insuAttachDocInspection" finished-at="2024-06-05T18:35:23 IST" duration-ms="3106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuAttachDocInspection -->
+        <test-method signature="insuConfirmThird()[pri:16, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:23 IST" name="insuConfirmThird" finished-at="2024-06-05T18:35:25 IST" duration-ms="1603" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuConfirmThird -->
+        <test-method signature="insuClaimResolutionApprove()[pri:17, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:25 IST" name="insuClaimResolutionApprove" finished-at="2024-06-05T18:35:27 IST" duration-ms="2818" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuClaimResolutionApprove -->
+        <test-method signature="insuClaimResolutionApprovelDate()[pri:18, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:27 IST" name="insuClaimResolutionApprovelDate" finished-at="2024-06-05T18:35:33 IST" duration-ms="5271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuClaimResolutionApprovelDate -->
+        <test-method signature="insuClaimResolutionApprovedAmount()[pri:19, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:33 IST" name="insuClaimResolutionApprovedAmount" finished-at="2024-06-05T18:35:33 IST" duration-ms="272" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuClaimResolutionApprovedAmount -->
+        <test-method signature="insuClaimResolutionAddRemarks()[pri:20, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:33 IST" name="insuClaimResolutionAddRemarks" finished-at="2024-06-05T18:35:33 IST" duration-ms="362" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuClaimResolutionAddRemarks -->
+        <test-method signature="insuAttachDocClaimresolution()[pri:21, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:33 IST" name="insuAttachDocClaimresolution" finished-at="2024-06-05T18:35:36 IST" duration-ms="3160" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuAttachDocClaimresolution -->
+        <test-method signature="insuConfirmFourth()[pri:22, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:36 IST" name="insuConfirmFourth" finished-at="2024-06-05T18:35:39 IST" duration-ms="2122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuConfirmFourth -->
+        <test-method signature="insuPendingLiquidationSelectItem()[pri:23, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:39 IST" name="insuPendingLiquidationSelectItem" finished-at="2024-06-05T18:35:48 IST" duration-ms="8902" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuPendingLiquidationSelectItem -->
+        <test-method signature="insuPendingLiquidSetDisposition()[pri:24, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:48 IST" name="insuPendingLiquidSetDisposition" finished-at="2024-06-05T18:35:49 IST" duration-ms="1114" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuPendingLiquidSetDisposition -->
+        <test-method signature="insuSetDispositionLiquidation()[pri:25, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:49 IST" name="insuSetDispositionLiquidation" finished-at="2024-06-05T18:35:50 IST" duration-ms="1154" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuSetDispositionLiquidation -->
+        <test-method signature="insuPendingLiquidationAddRemarks()[pri:26, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:50 IST" name="insuPendingLiquidationAddRemarks" finished-at="2024-06-05T18:35:52 IST" duration-ms="1868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuPendingLiquidationAddRemarks -->
+        <test-method signature="insuAttachDocPendingLiqui()[pri:27, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:52 IST" name="insuAttachDocPendingLiqui" finished-at="2024-06-05T18:35:55 IST" duration-ms="3159" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuAttachDocPendingLiqui -->
+        <test-method signature="insuConfirm5th()[pri:28, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:55 IST" name="insuConfirm5th" finished-at="2024-06-05T18:35:57 IST" duration-ms="2141" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- insuConfirm5th -->
+        <test-method signature="Disposition()[pri:30, instance:com.testserver.testcases.DInsurance_Test@34b7ac2f]" started-at="2024-06-05T18:35:57 IST" name="Disposition" finished-at="2024-06-05T18:35:59 IST" duration-ms="2148" status="PASS">
+>>>>>>> d10113d (First commit msg)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Disposition -->
       </class> <!-- com.testserver.testcases.DInsurance_Test -->
       <class name="com.testserver.testcases.ZLogout_Test">
+<<<<<<< HEAD
         <test-method is-config="true" signature="Logout()[pri:0, instance:com.testserver.testcases.ZLogout_Test@4b0b0854]" started-at="2024-04-17T10:31:38 IST" name="Logout" finished-at="2024-04-17T10:31:38 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -145,21 +271,45 @@
           </reporter-output>
         </test-method> <!-- Logout_Test -->
         <test-method is-config="true" signature="Logout()[pri:0, instance:com.testserver.testcases.ZLogout_Test@4b0b0854]" started-at="2024-04-17T10:31:39 IST" name="Logout" finished-at="2024-04-17T10:31:39 IST" duration-ms="0" status="PASS">
+=======
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.testserver.testcases.ZLogout_Test@4b0b0854]" started-at="2024-06-05T18:36:25 IST" name="Logout" finished-at="2024-06-05T18:36:25 IST" duration-ms="3" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method signature="logout()[pri:1, instance:com.testserver.testcases.ZLogout_Test@4b0b0854]" started-at="2024-06-05T18:36:25 IST" name="logout" finished-at="2024-06-05T18:36:26 IST" duration-ms="1366" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method signature="Logout_Test()[pri:2, instance:com.testserver.testcases.ZLogout_Test@4b0b0854]" started-at="2024-06-05T18:36:26 IST" name="Logout_Test" finished-at="2024-06-05T18:36:27 IST" duration-ms="1095" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout_Test -->
+        <test-method is-config="true" signature="Logout()[pri:0, instance:com.testserver.testcases.ZLogout_Test@4b0b0854]" started-at="2024-06-05T18:36:26 IST" name="Logout" finished-at="2024-06-05T18:36:26 IST" duration-ms="0" status="PASS">
+>>>>>>> d10113d (First commit msg)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Logout -->
       </class> <!-- com.testserver.testcases.ZLogout_Test -->
       <class name="com.testserver.testcases.BDisposition_Test">
+<<<<<<< HEAD
         <test-method is-config="true" signature="dispositonBCL()[pri:0, instance:com.testserver.testcases.BDisposition_Test@5a63f509]" started-at="2024-04-17T10:29:10 IST" name="dispositonBCL" finished-at="2024-04-17T10:29:10 IST" duration-ms="9" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- dispositonBCL -->
         <test-method signature="clickOnDispositionlinkTest()[pri:1, instance:com.testserver.testcases.BDisposition_Test@5a63f509]" started-at="2024-04-17T10:29:19 IST" name="clickOnDispositionlinkTest" finished-at="2024-04-17T10:29:23 IST" duration-ms="4733" status="PASS">
+=======
+        <test-method is-config="true" signature="dispositonBCL()[pri:0, instance:com.testserver.testcases.BDisposition_Test@5a63f509]" started-at="2024-06-05T18:33:45 IST" name="dispositonBCL" finished-at="2024-06-05T18:33:45 IST" duration-ms="19" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dispositonBCL -->
+        <test-method signature="clickOnDispositionlinkTest()[pri:1, instance:com.testserver.testcases.BDisposition_Test@5a63f509]" started-at="2024-06-05T18:33:50 IST" name="clickOnDispositionlinkTest" finished-at="2024-06-05T18:33:54 IST" duration-ms="3689" status="PASS">
+>>>>>>> d10113d (First commit msg)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnDispositionlinkTest -->
       </class> <!-- com.testserver.testcases.BDisposition_Test -->
       <class name="com.testserver.testcases.FRTV_Test">
+<<<<<<< HEAD
         <test-method is-config="true" signature="RTV1()[pri:0, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-04-17T10:29:10 IST" name="RTV1" finished-at="2024-04-17T10:29:10 IST" duration-ms="6" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -217,11 +367,71 @@
           </reporter-output>
         </test-method> <!-- RTVConfirmDispatch -->
         <test-method signature="RTVDispatchOkbutton()[pri:14, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-04-17T10:31:36 IST" name="RTVDispatchOkbutton" finished-at="2024-04-17T10:31:38 IST" duration-ms="1625" status="PASS">
+=======
+        <test-method is-config="true" signature="RTV1()[pri:0, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:33:45 IST" name="RTV1" finished-at="2024-06-05T18:33:45 IST" duration-ms="6" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTV1 -->
+        <test-method signature="RTV()[pri:1, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:35:59 IST" name="RTV" finished-at="2024-06-05T18:36:01 IST" duration-ms="2148" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTV -->
+        <test-method signature="rtvSelectItem()[pri:2, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:01 IST" name="rtvSelectItem" finished-at="2024-06-05T18:36:03 IST" duration-ms="1729" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtvSelectItem -->
+        <test-method signature="RTVSetDisposition()[pri:3, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:03 IST" name="RTVSetDisposition" finished-at="2024-06-05T18:36:05 IST" duration-ms="1620" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVSetDisposition -->
+        <test-method signature="RTVDispoToInsurance()[pri:4, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:05 IST" name="RTVDispoToInsurance" finished-at="2024-06-05T18:36:06 IST" duration-ms="1678" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVDispoToInsurance -->
+        <test-method signature="RTVAddRemarks()[pri:5, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:06 IST" name="RTVAddRemarks" finished-at="2024-06-05T18:36:07 IST" duration-ms="848" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVAddRemarks -->
+        <test-method signature="RTVAttachDoc()[pri:6, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:07 IST" name="RTVAttachDoc" finished-at="2024-06-05T18:36:10 IST" duration-ms="2662" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVAttachDoc -->
+        <test-method signature="RTVConfirm()[pri:7, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:10 IST" name="RTVConfirm" finished-at="2024-06-05T18:36:12 IST" duration-ms="2147" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVConfirm -->
+        <test-method signature="rtvSelectItemForDispatch()[pri:8, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:12 IST" name="rtvSelectItemForDispatch" finished-at="2024-06-05T18:36:15 IST" duration-ms="3129" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- rtvSelectItemForDispatch -->
+        <test-method signature="RTVMoveToDispatch()[pri:9, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:15 IST" name="RTVMoveToDispatch" finished-at="2024-06-05T18:36:17 IST" duration-ms="2187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVMoveToDispatch -->
+        <test-method signature="RTVVendorcode()[pri:10, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:17 IST" name="RTVVendorcode" finished-at="2024-06-05T18:36:17 IST" duration-ms="232" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVVendorcode -->
+        <test-method signature="RTVVendorDropdown()[pri:11, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:17 IST" name="RTVVendorDropdown" finished-at="2024-06-05T18:36:20 IST" duration-ms="2318" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVVendorDropdown -->
+        <test-method signature="RTVLotName()[pri:12, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:20 IST" name="RTVLotName" finished-at="2024-06-05T18:36:21 IST" duration-ms="844" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVLotName -->
+        <test-method signature="RTVConfirmDispatch()[pri:13, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:21 IST" name="RTVConfirmDispatch" finished-at="2024-06-05T18:36:22 IST" duration-ms="1656" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- RTVConfirmDispatch -->
+        <test-method signature="RTVDispatchOkbutton()[pri:14, instance:com.testserver.testcases.FRTV_Test@e056f20]" started-at="2024-06-05T18:36:22 IST" name="RTVDispatchOkbutton" finished-at="2024-06-05T18:36:25 IST" duration-ms="2533" status="PASS">
+>>>>>>> d10113d (First commit msg)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RTVDispatchOkbutton -->
       </class> <!-- com.testserver.testcases.FRTV_Test -->
       <class name="com.testserver.testcases.ALogin_QATest">
+<<<<<<< HEAD
         <test-method is-config="true" signature="setUp()[pri:0, instance:com.testserver.testcases.ALogin_QATest@703580bf]" started-at="2024-04-17T10:29:04 IST" name="setUp" finished-at="2024-04-17T10:29:10 IST" duration-ms="5966" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -235,11 +445,27 @@
           </reporter-output>
         </test-method> <!-- loginTest -->
         <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testserver.testcases.ALogin_QATest@703580bf]" started-at="2024-04-17T10:31:40 IST" name="tearDown" finished-at="2024-04-17T10:31:40 IST" duration-ms="190" status="PASS">
+=======
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.testserver.testcases.ALogin_QATest@703580bf]" started-at="2024-06-05T18:33:42 IST" name="setUp" finished-at="2024-06-05T18:33:45 IST" duration-ms="2920" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="signIn()[pri:0, instance:com.testserver.testcases.ALogin_QATest@703580bf]" started-at="2024-06-05T18:33:45 IST" name="signIn" finished-at="2024-06-05T18:33:45 IST" duration-ms="42" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- signIn -->
+        <test-method signature="loginTest()[pri:0, instance:com.testserver.testcases.ALogin_QATest@703580bf]" started-at="2024-06-05T18:33:45 IST" name="loginTest" finished-at="2024-06-05T18:33:50 IST" duration-ms="5086" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.testserver.testcases.ALogin_QATest@703580bf]" started-at="2024-06-05T18:36:27 IST" name="tearDown" finished-at="2024-06-05T18:36:28 IST" duration-ms="364" status="PASS">
+>>>>>>> d10113d (First commit msg)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- com.testserver.testcases.ALogin_QATest -->
       <class name="com.testserver.testcases.CBrandcalllog_Test">
+<<<<<<< HEAD
         <test-method is-config="true" signature="dispositonBCL1()[pri:0, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-04-17T10:29:10 IST" name="dispositonBCL1" finished-at="2024-04-17T10:29:10 IST" duration-ms="8" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -273,12 +499,48 @@
           </reporter-output>
         </test-method> <!-- bclAddremarks -->
         <test-method signature="bclFirstConfirm()[pri:8, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-04-17T10:29:34 IST" name="bclFirstConfirm" finished-at="2024-04-17T10:29:35 IST" duration-ms="457" status="PASS">
+=======
+        <test-method is-config="true" signature="dispositonBCL1()[pri:0, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:33:45 IST" name="dispositonBCL1" finished-at="2024-06-05T18:33:45 IST" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dispositonBCL1 -->
+        <test-method signature="clickBCL()[pri:1, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:33:54 IST" name="clickBCL" finished-at="2024-06-05T18:33:57 IST" duration-ms="2927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- clickBCL -->
+        <test-method signature="bclSelectTag()[pri:2, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:33:57 IST" name="bclSelectTag" finished-at="2024-06-05T18:33:58 IST" duration-ms="1064" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclSelectTag -->
+        <test-method signature="bclUpdateIntiation()[pri:3, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:33:58 IST" name="bclUpdateIntiation" finished-at="2024-06-05T18:33:59 IST" duration-ms="686" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclUpdateIntiation -->
+        <test-method signature="bclEmailDate()[pri:4, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:33:59 IST" name="bclEmailDate" finished-at="2024-06-05T18:34:03 IST" duration-ms="3817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclEmailDate -->
+        <test-method signature="bclInitiationLocation()[pri:5, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:03 IST" name="bclInitiationLocation" finished-at="2024-06-05T18:34:04 IST" duration-ms="1127" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclInitiationLocation -->
+        <test-method signature="bclLocationInhouse()[pri:6, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:04 IST" name="bclLocationInhouse" finished-at="2024-06-05T18:34:04 IST" duration-ms="146" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclLocationInhouse -->
+        <test-method signature="bclAddremarks()[pri:7, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:04 IST" name="bclAddremarks" finished-at="2024-06-05T18:34:05 IST" duration-ms="1029" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclAddremarks -->
+        <test-method signature="bclFirstConfirm()[pri:8, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:05 IST" name="bclFirstConfirm" finished-at="2024-06-05T18:34:05 IST" duration-ms="429" status="PASS">
+>>>>>>> d10113d (First commit msg)
           <reporter-output>
             <line>
               <![CDATA[BCL Fisrt screen updated succussfully]]>
             </line>
           </reporter-output>
         </test-method> <!-- bclFirstConfirm -->
+<<<<<<< HEAD
         <test-method signature="bclSelectItem()[pri:9, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-04-17T10:29:35 IST" name="bclSelectItem" finished-at="2024-04-17T10:29:37 IST" duration-ms="2544" status="PASS">
           <reporter-output>
           </reporter-output>
@@ -372,6 +634,101 @@
           </reporter-output>
         </test-method> <!-- bclBrandResolutionConfirm -->
         <test-method signature="Disposition()[pri:32, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-04-17T10:30:06 IST" name="Disposition" finished-at="2024-04-17T10:30:08 IST" duration-ms="2542" status="PASS">
+=======
+        <test-method signature="bclSelectItem()[pri:9, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:05 IST" name="bclSelectItem" finished-at="2024-06-05T18:34:07 IST" duration-ms="2024" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclSelectItem -->
+        <test-method signature="bclUpdateCallLogTag()[pri:10, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:07 IST" name="bclUpdateCallLogTag" finished-at="2024-06-05T18:34:08 IST" duration-ms="1111" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclUpdateCallLogTag -->
+        <test-method signature="bclEnterCallLog()[pri:11, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:08 IST" name="bclEnterCallLog" finished-at="2024-06-05T18:34:09 IST" duration-ms="807" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclEnterCallLog -->
+        <test-method signature="bclUpdateSecond()[pri:12, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:09 IST" name="bclUpdateSecond" finished-at="2024-06-05T18:34:10 IST" duration-ms="329" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclUpdateSecond -->
+        <test-method signature="bclInspectionSelectTag()[pri:13, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:10 IST" name="bclInspectionSelectTag" finished-at="2024-06-05T18:34:11 IST" duration-ms="1841" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclInspectionSelectTag -->
+        <test-method signature="bclInspectionUpdate()[pri:14, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:11 IST" name="bclInspectionUpdate" finished-at="2024-06-05T18:34:12 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclInspectionUpdate -->
+        <test-method signature="bclEnterInvoice()[pri:15, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:12 IST" name="bclEnterInvoice" finished-at="2024-06-05T18:34:13 IST" duration-ms="868" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclEnterInvoice -->
+        <test-method signature="bclInspectionThird()[pri:16, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:13 IST" name="bclInspectionThird" finished-at="2024-06-05T18:34:13 IST" duration-ms="331" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclInspectionThird -->
+        <test-method signature="bclSelectTagBrand()[pri:17, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:13 IST" name="bclSelectTagBrand" finished-at="2024-06-05T18:34:14 IST" duration-ms="1156" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclSelectTagBrand -->
+        <test-method signature="bclInspectionBrandInspection()[pri:18, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:14 IST" name="bclInspectionBrandInspection" finished-at="2024-06-05T18:34:15 IST" duration-ms="640" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclInspectionBrandInspection -->
+        <test-method signature="bclBrandInspectionDate()[pri:19, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:15 IST" name="bclBrandInspectionDate" finished-at="2024-06-05T18:34:19 IST" duration-ms="4054" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclBrandInspectionDate -->
+        <test-method signature="bclBrandInspectionLocation()[pri:20, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:19 IST" name="bclBrandInspectionLocation" finished-at="2024-06-05T18:34:20 IST" duration-ms="597" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclBrandInspectionLocation -->
+        <test-method signature="bclBrandLocationInhouse()[pri:21, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:20 IST" name="bclBrandLocationInhouse" finished-at="2024-06-05T18:34:20 IST" duration-ms="145" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclBrandLocationInhouse -->
+        <test-method signature="bclBrandInspectionRemarks()[pri:22, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:20 IST" name="bclBrandInspectionRemarks" finished-at="2024-06-05T18:34:21 IST" duration-ms="871" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclBrandInspectionRemarks -->
+        <test-method signature="bclBrandInspectionAttachDoc()[pri:23, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:21 IST" name="bclBrandInspectionAttachDoc" finished-at="2024-06-05T18:34:24 IST" duration-ms="3341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclBrandInspectionAttachDoc -->
+        <test-method signature="bclBrandInspectionConfirm()[pri:24, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:24 IST" name="bclBrandInspectionConfirm" finished-at="2024-06-05T18:34:26 IST" duration-ms="2121" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclBrandInspectionConfirm -->
+        <test-method signature="bclResolutionSelectItem()[pri:25, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:26 IST" name="bclResolutionSelectItem" finished-at="2024-06-05T18:34:31 IST" duration-ms="4692" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclResolutionSelectItem -->
+        <test-method signature="bclBrandResolution()[pri:26, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:31 IST" name="bclBrandResolution" finished-at="2024-06-05T18:34:33 IST" duration-ms="1641" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclBrandResolution -->
+        <test-method signature="bclBrandInspectionSetDisposition()[pri:27, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:33 IST" name="bclBrandInspectionSetDisposition" finished-at="2024-06-05T18:34:33 IST" duration-ms="144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclBrandInspectionSetDisposition -->
+        <test-method signature="bclBrandSetDispoInsurance()[pri:28, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:33 IST" name="bclBrandSetDispoInsurance" finished-at="2024-06-05T18:34:33 IST" duration-ms="633" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclBrandSetDispoInsurance -->
+        <test-method signature="bclBrandResolutionRemarks()[pri:29, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:33 IST" name="bclBrandResolutionRemarks" finished-at="2024-06-05T18:34:34 IST" duration-ms="907" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclBrandResolutionRemarks -->
+        <test-method signature="bclBrandResolutionAttachDoc()[pri:30, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:34 IST" name="bclBrandResolutionAttachDoc" finished-at="2024-06-05T18:34:37 IST" duration-ms="2849" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclBrandResolutionAttachDoc -->
+        <test-method signature="bclBrandResolutionConfirm()[pri:31, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:37 IST" name="bclBrandResolutionConfirm" finished-at="2024-06-05T18:34:39 IST" duration-ms="2202" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bclBrandResolutionConfirm -->
+        <test-method signature="Disposition()[pri:32, instance:com.testserver.testcases.CBrandcalllog_Test@6e4784bc]" started-at="2024-06-05T18:34:39 IST" name="Disposition" finished-at="2024-06-05T18:34:41 IST" duration-ms="2134" status="PASS">
+>>>>>>> d10113d (First commit msg)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Disposition -->

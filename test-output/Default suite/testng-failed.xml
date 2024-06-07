@@ -3,12 +3,23 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.testserver.testcases.DInsurance_Test">
         <methods>
           <include name="dispositionInsurance"/>
           <include name="insuSurveyorUpdateInfo"/>
         </methods>
       </class> <!-- com.testserver.testcases.DInsurance_Test -->
+=======
+      <class name="com.testserver.testcases.ALogin_QATest">
+        <methods>
+          <include name="signIn"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.ALogin_QATest -->
+>>>>>>> d10113d (First commit msg)
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

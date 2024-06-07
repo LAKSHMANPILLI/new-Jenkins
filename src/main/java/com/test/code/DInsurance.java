@@ -37,7 +37,11 @@ public class DInsurance extends initialiazeChrome{
 	private WebElement monthselect;
 	@FindBy(xpath = "//li[text()='2024']")
 	private WebElement yearSelect;
+<<<<<<< HEAD
 	@FindBy(xpath = "(//button[contains(@class,'v-btn v-btn--text v-btn--rounded theme--light')])[1]")
+=======
+	@FindBy(xpath = "(//button[contains(@class,'v-btn v-date-picker-table__current v-btn--rounded v-btn--outlined theme--light accent--text')])[1]")
+>>>>>>> d10113d (First commit msg)
 	private WebElement dateClick;
 	@FindBy(xpath = "//span[text()='OK']")
 	private WebElement cok;
@@ -197,9 +201,17 @@ public class DInsurance extends initialiazeChrome{
 		Thread.sleep(500);
 	}
 	public void insuConfirmFirst() throws InterruptedException {
+<<<<<<< HEAD
 		InsuConfirmFirst.click();
 		Thread.sleep(1500);
 		System.out.println("Pending claim registration succussfully updated");
+=======
+		Thread.sleep(2000);
+		InsuConfirmFirst.click();
+		
+		System.out.println("Pending claim registration succussfully updated");
+		Thread.sleep(1000);
+>>>>>>> d10113d (First commit msg)
 	}
 	
 	
@@ -207,6 +219,7 @@ public class DInsurance extends initialiazeChrome{
 	public void insuUpdateClaimRegist() throws InterruptedException {
 		Thread.sleep(500);
 		InsuUpdateClaimRegist.click();
+<<<<<<< HEAD
 	}
 	public void insuUpdateCallSelectItem() throws InterruptedException {
 		Thread.sleep(2000);
@@ -214,14 +227,32 @@ public class DInsurance extends initialiazeChrome{
 	}
 	public void insuUpdateClaimCallLog() throws InterruptedException {
 		Thread.sleep(1000);
+=======
+		
+	}
+	public void insuUpdateCallSelectItem() throws InterruptedException {
+		Thread.sleep(3000);
+		InsuUpdateCallSelectItem.click();
+	}
+	public void insuUpdateClaimCallLog() throws InterruptedException {
+		Thread.sleep(3000);
+>>>>>>> d10113d (First commit msg)
 		InsuUpdateClaimCallLog.click();
 	}
 	public void insuEnterCallLog() throws InterruptedException {
 		InsuEnterCallLog.click();
+<<<<<<< HEAD
 		Thread.sleep(500);
 		InsuEnterCallLog.sendKeys("CallLogNO204050");
 	}
 	public void insuConfirmSecond() throws InterruptedException {
+=======
+		Thread.sleep(1000);
+		InsuEnterCallLog.sendKeys("CallLogNO204050");
+	}
+	public void insuConfirmSecond() throws InterruptedException {
+		Thread.sleep(1000);
+>>>>>>> d10113d (First commit msg)
 		InsuConfirmSecond.click();
 		System.out.println("CallLog No. updated succussfully");
 		Thread.sleep(500);
@@ -237,7 +268,11 @@ public class DInsurance extends initialiazeChrome{
 		InsuSurveyorSelectItem.click();
 	}
 	public void insuSurveyorUpdateInfo() throws InterruptedException {
+<<<<<<< HEAD
 		Thread.sleep(1500);
+=======
+		Thread.sleep(2000);
+>>>>>>> d10113d (First commit msg)
 		InsuSurveyorUpdateInfo.click();
 	}
 	
@@ -286,7 +321,11 @@ public class DInsurance extends initialiazeChrome{
 		Thread.sleep(500);
 	}
 	public void insuConfirmThird() throws InterruptedException {
+<<<<<<< HEAD
 		Thread.sleep(500);
+=======
+		Thread.sleep(1000);
+>>>>>>> d10113d (First commit msg)
 		InsuConfirmThird.click();
 		Thread.sleep(500);
 		System.out.println("Pending surveyor inspection verifyied succusfully");
@@ -349,7 +388,11 @@ public class DInsurance extends initialiazeChrome{
 	public void insuConfirmFourth() throws InterruptedException {
 		Thread.sleep(1000);
 		InsuConfirmFourth.click();
+<<<<<<< HEAD
 		Thread.sleep(500);
+=======
+		Thread.sleep(1000);
+>>>>>>> d10113d (First commit msg)
 		System.out.println("Pending claim resolution updated succussfully");
 	}
 	
@@ -399,7 +442,11 @@ public class DInsurance extends initialiazeChrome{
 	public void insuConfirm5th() throws InterruptedException {
 		Thread.sleep(1000);
 		InsuConfirm5th.click();
+<<<<<<< HEAD
 		Thread.sleep(500);
+=======
+		Thread.sleep(1000);
+>>>>>>> d10113d (First commit msg)
 		System.out.println("Pending liquidation item succussfully moved ");
 	}
 

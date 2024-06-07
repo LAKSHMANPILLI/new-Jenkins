@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
+<<<<<<< HEAD
 Tests run: 79, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 156.8 s -- in TestSuite
+=======
+Tests run: 79, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 166.2 s -- in TestSuite
+>>>>>>> d10113d (First commit msg)

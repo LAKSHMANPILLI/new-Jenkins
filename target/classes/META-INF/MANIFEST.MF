@@ -1,6 +1,11 @@
 Manifest-Version: 1.0
+<<<<<<< HEAD
 Built-By: Blubirch
 Build-Jdk: 21.0.2
+=======
+Built-By: laksh
+Build-Jdk: 21.0.3
+>>>>>>> d10113d (First commit msg)
 Class-Path: lib/testng-7.9.0.jar lib/slf4j-api-1.7.36.jar lib/jcommander
  -1.82.jar lib/jquery-3.7.1.jar lib/selenium-java-3.141.59.jar lib/selen
  ium-api-3.141.59.jar lib/selenium-chrome-driver-3.141.59.jar lib/seleni

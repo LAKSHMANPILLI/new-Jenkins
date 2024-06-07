@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="5" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="com.testserver.testcases.DInsurance_Test">
+        <methods>
+          <include name="insuAttachDocPendingLiqui"/>
+          <include name="insuPendingLiquidationSelectItem"/>
+          <include name="insuConfirmSecond"/>
+          <include name="insuUpdateCallSelectItem"/>
+          <include name="insuPendingLiquidationAddRemarks"/>
+          <include name="insuClaimResolutionApprovelDate"/>
+          <include name="insuConfirmFourth"/>
+          <include name="dispositionInsurance"/>
+          <include name="insuSetDispositionLiquidation"/>
+          <include name="insuSurveyorSelectItem"/>
+          <include name="insuConfirmThird"/>
+          <include name="insuPendingLiquidSetDisposition"/>
+          <include name="insuClaimResolutionAddRemarks"/>
+          <include name="insuClaimResolutionApprovedAmount"/>
+          <include name="insuEnterCallLog"/>
+          <include name="insuSurveyorClaimInspectionDate"/>
+          <include name="insuClaimResolutionApprove"/>
+          <include name="insuConfirm5th"/>
+          <include name="InsuSurveyorAddRemarks"/>
+          <include name="insuAttachDocClaimresolution"/>
+          <include name="insuAttachDocInspection"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.DInsurance_Test -->
+      <class name="com.testserver.testcases.FRTV_Test">
+        <methods>
+          <include name="RTVAttachDoc"/>
+          <include name="RTV1"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.FRTV_Test -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->

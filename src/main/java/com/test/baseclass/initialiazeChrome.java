@@ -40,7 +40,11 @@ public class initialiazeChrome
 		try {
 			
 			//InputStream is = _class.getResourceAsStream("data.properties");
+<<<<<<< HEAD
 			FileInputStream is=new FileInputStream("C:\\Users\\Blubirch\\eclipse-workspace\\QAtest\\src\\main\\resources\\data.properties");
+=======
+			FileInputStream is=new FileInputStream("C:\\Users\\laksh\\eclipse-workspace\\Jenkin22-main\\src\\main\\resources\\data.properties");
+>>>>>>> d10113d (First commit msg)
 			prop = new Properties();
 			prop.load(is);
 			//System.out.println(prop.getProperty("d1"));
@@ -56,7 +60,11 @@ public class initialiazeChrome
 		if (browserName.equals("chrome")) {
 			//ChromeOptions co=new ChromeOptions();
 			//co.setBinary("C:\\Users\\Blubirch\\Downloads\\chrome-win32\\chrome-win32");
+<<<<<<< HEAD
 			System.setProperty("webdriver.chrome.driver","C:\\Users\\Blubirch\\eclipse-workspace\\QAtest\\src\\main\\resources\\chromedriver.exe");
+=======
+			System.setProperty("webdriver.chrome.driver","C:\\Users\\laksh\\eclipse-workspace\\Jenkin22-main\\src\\main\\resources\\chromedriver.exe");
+>>>>>>> d10113d (First commit msg)
 			//WebDriverManager.chromedriver().setup();
 			driver = new ChromeDriver();
 
@@ -75,7 +83,11 @@ public class initialiazeChrome
 		public void failed(String testMethodName) {
 			File srcFile = ((TakesScreenshot)driver).getScreenshotAs(OutputType.FILE);
 			try {
+<<<<<<< HEAD
 				Files.copy(srcFile, new File("C:\\Users\\Blubirch\\eclipse-workspace\\QAtest\\ScreenShoots\\Abc"+testMethodName+"_"+".jpg"));
+=======
+				Files.copy(srcFile, new File("C:\\Users\\laksh\\eclipse-workspace\\Jenkin22-main\\ScreenShoots\\Abc"+testMethodName+"_"+".jpg"));
+>>>>>>> d10113d (First commit msg)
 			} catch (IOException e) {
 				e.printStackTrace();
 			}

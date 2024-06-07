@@ -4,8 +4,14 @@
   <test thread-count="5" name="Test">
     <classes>
       <class name="com.testserver.testcases.ALogin_QATest"/>
+<<<<<<< HEAD
       <class name="com.testserver.testcases.BDisposition_Test"/>
       <class name="com.testserver.testcases.FRTV_Test"/>
+=======
+      <class name="com.testserver.testcases.FRTV_Test"/>
+      <class name="com.testserver.testcases.ZLogout_Test"/>
+      <class name="com.testserver.testcases.CBrandcalllog_Test"/>
+>>>>>>> d10113d (First commit msg)
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

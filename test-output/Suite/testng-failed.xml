@@ -3,6 +3,7 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
+<<<<<<< HEAD
       <class name="com.testserver.testcases.DInsurance_Test">
         <methods>
           <include name="insuAttachDocPendingLiqui"/>
@@ -38,6 +39,15 @@
           <include name="InsuSurveyorAddRemarks"/>
         </methods>
       </class> <!-- com.testserver.testcases.DInsurance_Test -->
+=======
+      <class name="com.testserver.testcases.ZLogout_Test">
+        <methods>
+          <include name="logout"/>
+          <include name="Logout"/>
+          <include name="Logout_Test"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.ZLogout_Test -->
+>>>>>>> d10113d (First commit msg)
       <class name="com.testserver.testcases.CBrandcalllog_Test">
         <methods>
           <include name="bclInspectionThird"/>
@@ -49,9 +59,16 @@
           <include name="bclInspectionBrandInspection"/>
           <include name="bclBrandLocationInhouse"/>
           <include name="bclEnterCallLog"/>
+<<<<<<< HEAD
           <include name="bclInitiationLocation"/>
           <include name="bclFirstConfirm"/>
           <include name="bclBrandInspectionSetDisposition"/>
+=======
+          <include name="bclFirstConfirm"/>
+          <include name="bclInitiationLocation"/>
+          <include name="bclBrandInspectionSetDisposition"/>
+          <include name="bclSelectTag"/>
+>>>>>>> d10113d (First commit msg)
           <include name="bclInspectionSelectTag"/>
           <include name="bclUpdateCallLogTag"/>
           <include name="bclBrandInspectionRemarks"/>
@@ -62,7 +79,13 @@
           <include name="bclInspectionUpdate"/>
           <include name="bclAddremarks"/>
           <include name="bclUpdateSecond"/>
+<<<<<<< HEAD
           <include name="bclEmailDate"/>
+=======
+          <include name="bclUpdateIntiation"/>
+          <include name="bclEmailDate"/>
+          <include name="clickBCL"/>
+>>>>>>> d10113d (First commit msg)
           <include name="bclSelectTagBrand"/>
           <include name="Disposition"/>
           <include name="bclBrandResolutionConfirm"/>
@@ -72,6 +95,36 @@
           <include name="bclBrandInspectionDate"/>
         </methods>
       </class> <!-- com.testserver.testcases.CBrandcalllog_Test -->
+<<<<<<< HEAD
+=======
+      <class name="com.testserver.testcases.ALogin_QATest">
+        <methods>
+          <include name="signIn"/>
+          <include name="loginTest"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.ALogin_QATest -->
+      <class name="com.testserver.testcases.FRTV_Test">
+        <methods>
+          <include name="RTVConfirm"/>
+          <include name="RTVLotName"/>
+          <include name="rtvSelectItemForDispatch"/>
+          <include name="RTVDispatchOkbutton"/>
+          <include name="RTVDispoToInsurance"/>
+          <include name="RTVSetDisposition"/>
+          <include name="RTVVendorDropdown"/>
+          <include name="RTV"/>
+          <include name="RTVAddRemarks"/>
+          <include name="RTVMoveToDispatch"/>
+          <include name="RTVAttachDoc"/>
+          <include name="RTVConfirmDispatch"/>
+          <include name="RTV1"/>
+          <include name="RTVVendorcode"/>
+          <include name="rtvSelectItem"/>
+        </methods>
+      </class> <!-- com.testserver.testcases.FRTV_Test -->
+>>>>>>> d10113d (First commit msg)
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->
